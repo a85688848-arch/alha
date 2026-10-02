@@ -1,0 +1,4102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Primary Meta Tags -->
+  <title>ALHA | Luxury Fragrances & Perfumes Abbottabad | Artisanal Ouds & Parfums</title>
+  <meta name="title" content="ALHA | Luxury Fragrances & Perfumes Abbottabad | Artisanal Ouds & Parfums">
+  <meta name="description" content="Discover ALHA Luxury Perfumes. Artisanal, long-lasting fragrances handcrafted in Abbottabad, Pakistan. Cambodian Ouds, Damask Rose, and Hazara mountain accords. Cash on Delivery nationwide.">
+  <meta name="keywords" content="ALHA perfume, perfumes Abbottabad, luxury fragrance Pakistan, long lasting perfume, Oud perfume, Cash on Delivery perfumes, Hazara perfumes, best perfumes Pakistan">
+  <meta name="author" content="ALHA Luxury Fragrances">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://alhaparfums.pk/">
+  <meta property="og:title" content="ALHA | The Essence of Elegance - Luxury Perfumes">
+  <meta property="og:description" content="Experience high-concentration artisanal perfumes from Abbottabad. Cambodia Oud, Amber, Florals. Order directly on WhatsApp with Cash on Delivery.">
+  <meta property="og:image" content="assets/images/royal-oud.jpg">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:title" content="ALHA | Luxury Perfumes Abbottabad">
+  <meta property="twitter:description" content="Artisanal fragrances crafted with 12+ hour longevity. Cash on Delivery across Pakistan.">
+  <meta property="twitter:image" content="assets/images/royal-oud.jpg">
+
+  <!-- Remix Icon CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css">
+
+  <!-- Main Stylesheet (Embedded) -->
+  <style>
+/* ==========================================================================
+   ALHA - LUXURY PERFUMES (ABBOTTABAD, PAKISTAN)
+   Master Stylesheet (Vanilla CSS, Modern Glassmorphism & Gold Luxury Aesthetic)
+   ========================================================================== */
+
+/* --- Google Fonts Import --- */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;1,400&display=swap');
+
+/* --- CSS Variables & Design Tokens --- */
+:root {
+  /* Colors: Obsidian & Warm Gold */
+  --bg-primary: #0a0a0c;
+  --bg-secondary: #111115;
+  --bg-tertiary: #17171d;
+  --bg-card: rgba(22, 22, 28, 0.85);
+  --bg-glass: rgba(18, 18, 23, 0.75);
+  --bg-glass-strong: rgba(14, 14, 18, 0.94);
+  
+  --gold-primary: #c9a24d;
+  --gold-light: #dfc17b;
+  --gold-hover: #b08a38;
+  --gold-dark: #8c6b28;
+  --gold-gradient: linear-gradient(135deg, #dfc17b 0%, #c9a24d 50%, #997327 100%);
+  --gold-gradient-soft: linear-gradient(135deg, rgba(223, 193, 123, 0.15) 0%, rgba(201, 162, 77, 0.05) 100%);
+  --gold-border: rgba(201, 162, 77, 0.3);
+  --gold-glow: 0 0 25px rgba(201, 162, 77, 0.22);
+  --gold-glow-strong: 0 0 35px rgba(201, 162, 77, 0.45);
+  
+  --text-primary: #f8f6f0;
+  --text-secondary: #cec8b8;
+  --text-muted: #8e8a7f;
+  --text-dark: #0d0d0f;
+
+  --whatsapp-color: #25D366;
+  --whatsapp-hover: #1ebd5a;
+  
+  /* Borders & Shadows */
+  --border-subtle: rgba(255, 255, 255, 0.08);
+  --border-light: rgba(201, 162, 77, 0.18);
+  --shadow-sm: 0 4px 14px rgba(0, 0, 0, 0.4);
+  --shadow-md: 0 8px 30px rgba(0, 0, 0, 0.6);
+  --shadow-lg: 0 16px 50px rgba(0, 0, 0, 0.8);
+  
+  /* Typography */
+  --font-serif: 'Playfair Display', 'Cormorant Garamond', Georgia, serif;
+  --font-sans: 'Montserrat', -apple-system, BlinkMacSystemFont, sans-serif;
+  
+  /* Spacing & Layout */
+  --container-max: 1280px;
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 14px;
+  --radius-full: 9999px;
+  --transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-slow: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* --- Global Reset & Base --- */
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  line-height: 1.6;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+button, input, select, textarea {
+  font-family: inherit;
+  color: inherit;
+  outline: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: var(--transition);
+}
+
+ul {
+  list-style: none;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-primary);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(201, 162, 77, 0.3);
+  border-radius: var(--radius-full);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--gold-primary);
+}
+
+/* --- Container & Utilities --- */
+.container {
+  width: 90%;
+  max-width: var(--container-max);
+  margin: 0 auto;
+}
+
+.text-gold {
+  color: var(--gold-primary);
+}
+
+.serif {
+  font-family: var(--font-serif);
+}
+
+.badge-gold {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 12px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--gold-light);
+  background: rgba(201, 162, 77, 0.12);
+  border: 1px solid var(--gold-border);
+  border-radius: var(--radius-full);
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 3.5rem;
+}
+
+.section-tag {
+  display: inline-block;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--gold-primary);
+  margin-bottom: 0.75rem;
+}
+
+.section-title {
+  font-family: var(--font-serif);
+  font-size: clamp(2rem, 3.5vw, 2.75rem);
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 1rem;
+  letter-spacing: 0.5px;
+}
+
+.section-subtitle {
+  font-size: 1rem;
+  color: var(--text-muted);
+  max-width: 620px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* --- Buttons --- */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 13px 26px;
+  font-size: 0.84rem;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition: var(--transition);
+  border: none;
+  text-decoration: none;
+}
+
+.btn-primary {
+  background: var(--gold-gradient);
+  color: var(--text-dark);
+  box-shadow: 0 4px 18px rgba(201, 162, 77, 0.35);
+  font-weight: 700;
+}
+.btn-primary:hover {
+  background: linear-gradient(135deg, #ecd698 0%, #d8b25a 50%, #b08a38 100%);
+  transform: translateY(-2px);
+  box-shadow: var(--gold-glow-strong);
+}
+
+.btn-outline {
+  background: transparent;
+  color: var(--text-primary);
+  border: 1px solid var(--gold-border);
+}
+.btn-outline:hover {
+  background: rgba(201, 162, 77, 0.1);
+  border-color: var(--gold-primary);
+  color: var(--gold-light);
+  transform: translateY(-2px);
+}
+
+.btn-whatsapp {
+  background-color: var(--whatsapp-color);
+  color: #ffffff;
+  font-weight: 600;
+  box-shadow: 0 4px 15px rgba(37, 211, 102, 0.3);
+}
+.btn-whatsapp:hover {
+  background-color: var(--whatsapp-hover);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(37, 211, 102, 0.5);
+}
+
+.btn-sm {
+  padding: 8px 14px;
+  font-size: 0.74rem;
+  letter-spacing: 0.8px;
+}
+
+.btn-block {
+  width: 100%;
+}
+
+/* --- Top Announcement Bar --- */
+.announcement-bar {
+  background: linear-gradient(90deg, #121215 0%, #1a1711 50%, #121215 100%);
+  border-bottom: 1px solid rgba(201, 162, 77, 0.15);
+  padding: 7px 0;
+  font-size: 0.75rem;
+  letter-spacing: 0.8px;
+  color: var(--gold-light);
+  text-align: center;
+}
+.announcement-bar strong {
+  color: #fff;
+}
+.announcement-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+.announcement-dot {
+  opacity: 0.5;
+}
+
+/* --- Sticky Glassmorphic Navbar --- */
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: var(--bg-glass);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid var(--border-light);
+  transition: var(--transition);
+}
+
+.navbar.scrolled {
+  background: var(--bg-glass-strong);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 78px;
+}
+
+/* Brand Logo */
+.brand-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-decoration: none;
+}
+.logo-title {
+  font-family: var(--font-serif);
+  font-size: 1.85rem;
+  font-weight: 700;
+  letter-spacing: 4px;
+  color: var(--text-primary);
+  line-height: 1;
+}
+.logo-title span {
+  color: var(--gold-primary);
+}
+.logo-tagline {
+  font-size: 0.58rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--gold-light);
+  margin-top: 3px;
+}
+
+/* Nav Menu */
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 2.2rem;
+}
+.nav-link {
+  font-size: 0.84rem;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+  position: relative;
+  padding: 6px 0;
+}
+.nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background: var(--gold-gradient);
+  transition: var(--transition);
+}
+.nav-link:hover, .nav-link.active {
+  color: var(--gold-light);
+}
+.nav-link:hover::after, .nav-link.active::after {
+  width: 100%;
+}
+
+/* Nav Actions */
+.nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.nav-cart-btn {
+  background: rgba(201, 162, 77, 0.08);
+  border: 1px solid var(--gold-border);
+  color: var(--text-primary);
+  width: 44px;
+  height: 44px;
+  border-radius: var(--radius-full);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  cursor: pointer;
+  transition: var(--transition);
+}
+.nav-cart-btn:hover {
+  background: rgba(201, 162, 77, 0.2);
+  border-color: var(--gold-primary);
+  color: var(--gold-light);
+  transform: scale(1.05);
+}
+
+.cart-count-badge {
+  position: absolute;
+  top: -4px;
+  right: -4px;
+  background: var(--gold-gradient);
+  color: var(--text-dark);
+  font-size: 0.7rem;
+  font-weight: 700;
+  width: 19px;
+  height: 19px;
+  border-radius: var(--radius-full);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-whatsapp-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  background: rgba(37, 211, 102, 0.12);
+  border: 1px solid rgba(37, 211, 102, 0.35);
+  color: #25d366;
+  padding: 8px 14px;
+  border-radius: var(--radius-full);
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+.nav-whatsapp-link:hover {
+  background: var(--whatsapp-color);
+  color: #fff;
+}
+
+.mobile-menu-btn {
+  display: none;
+  background: transparent;
+  border: none;
+  color: var(--text-primary);
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 5px;
+}
+
+/* --- Hero Section --- */
+.hero-section {
+  position: relative;
+  min-height: 92vh;
+  display: flex;
+  align-items: center;
+  padding: 4rem 0;
+  background-color: var(--bg-primary);
+  overflow: hidden;
+}
+
+.hero-bg-overlay {
+  position: absolute;
+  inset: 0;
+  background: 
+    radial-gradient(circle at 75% 40%, rgba(201, 162, 77, 0.12) 0%, transparent 60%),
+    radial-gradient(circle at 20% 70%, rgba(22, 22, 28, 0.8) 0%, var(--bg-primary) 70%);
+  pointer-events: none;
+}
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
+  align-items: center;
+  gap: 3.5rem;
+  position: relative;
+  z-index: 2;
+}
+
+.hero-tagline {
+  margin-bottom: 1.5rem;
+}
+
+.hero-title {
+  font-family: var(--font-serif);
+  font-size: clamp(2.6rem, 5.2vw, 4.4rem);
+  font-weight: 600;
+  line-height: 1.12;
+  letter-spacing: -0.5px;
+  margin-bottom: 1.5rem;
+  color: var(--text-primary);
+}
+.hero-title em {
+  font-style: italic;
+  font-weight: 400;
+  color: var(--gold-light);
+  background: var(--gold-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero-description {
+  font-size: 1.05rem;
+  color: var(--text-secondary);
+  line-height: 1.7;
+  max-width: 540px;
+  margin-bottom: 2.2rem;
+}
+
+.hero-actions {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  flex-wrap: wrap;
+  margin-bottom: 3rem;
+}
+
+.hero-features {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  border-top: 1px solid var(--border-subtle);
+  padding-top: 2rem;
+}
+.hero-feature-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.hero-feature-item i, .hero-feature-item svg {
+  color: var(--gold-primary);
+  font-size: 1.15rem;
+}
+.hero-feature-text {
+  font-size: 0.82rem;
+  line-height: 1.3;
+  color: var(--text-muted);
+}
+.hero-feature-text strong {
+  display: block;
+  color: var(--text-primary);
+  font-size: 0.86rem;
+}
+
+/* Hero Visual Card */
+.hero-visual {
+  position: relative;
+}
+.hero-image-card {
+  position: relative;
+  background: var(--bg-card);
+  border: 1px solid var(--gold-border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-lg), var(--gold-glow);
+  transform: perspective(1000px) rotateY(-4deg) rotateX(2deg);
+  transition: var(--transition-slow);
+}
+.hero-image-card:hover {
+  transform: perspective(1000px) rotateY(0) rotateX(0);
+}
+.hero-image-card img {
+  width: 100%;
+  height: 520px;
+  object-fit: cover;
+  transition: transform 0.8s ease;
+}
+.hero-image-card:hover img {
+  transform: scale(1.04);
+}
+.hero-floating-badge {
+  position: absolute;
+  bottom: 25px;
+  left: 25px;
+  right: 25px;
+  background: rgba(14, 14, 18, 0.85);
+  backdrop-filter: blur(12px);
+  border: 1px solid var(--gold-border);
+  padding: 16px 20px;
+  border-radius: var(--radius-md);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.floating-badge-title {
+  font-family: var(--font-serif);
+  font-size: 1.1rem;
+  color: #fff;
+}
+.floating-badge-sub {
+  font-size: 0.75rem;
+  color: var(--gold-light);
+  letter-spacing: 0.5px;
+}
+
+/* --- Section: Featured / Bestsellers --- */
+.featured-section {
+  padding: 6.5rem 0 5rem;
+  background: var(--bg-secondary);
+  border-top: 1px solid var(--border-subtle);
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+/* --- Product Card Component --- */
+.product-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: var(--transition);
+  position: relative;
+}
+.product-card:hover {
+  border-color: var(--gold-border);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6), var(--gold-glow);
+  transform: translateY(-5px);
+}
+
+.product-image-wrap {
+  position: relative;
+  width: 100%;
+  padding-top: 110%; /* 1:1.1 aspect ratio */
+  background: #000;
+  overflow: hidden;
+  cursor: pointer;
+}
+.product-image-wrap img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.product-card:hover .product-image-wrap img {
+  transform: scale(1.08);
+}
+
+.product-badge {
+  position: absolute;
+  top: 14px;
+  left: 14px;
+  z-index: 2;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 4px 10px;
+  border-radius: var(--radius-full);
+  background: rgba(14, 14, 18, 0.85);
+  backdrop-filter: blur(8px);
+  color: var(--gold-light);
+  border: 1px solid var(--gold-border);
+}
+.product-badge.bestseller {
+  background: var(--gold-gradient);
+  color: var(--text-dark);
+  border: none;
+}
+
+.product-gender-tag {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  z-index: 2;
+  font-size: 0.68rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  padding: 3px 8px;
+  border-radius: var(--radius-sm);
+  background: rgba(0, 0, 0, 0.6);
+  color: var(--text-muted);
+}
+
+.quick-view-overlay {
+  position: absolute;
+  bottom: 12px;
+  left: 12px;
+  right: 12px;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: var(--transition);
+  z-index: 3;
+}
+.product-card:hover .quick-view-overlay {
+  opacity: 1;
+  transform: translateY(0);
+}
+.btn-quick-view {
+  width: 100%;
+  background: rgba(18, 18, 23, 0.9);
+  backdrop-filter: blur(10px);
+  border: 1px solid var(--gold-border);
+  color: var(--text-primary);
+  font-size: 0.74rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 9px;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition: var(--transition);
+}
+.btn-quick-view:hover {
+  background: var(--gold-primary);
+  color: var(--text-dark);
+}
+
+/* Card Body */
+.product-body {
+  padding: 1.3rem;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.product-category {
+  font-size: 0.72rem;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--gold-primary);
+  margin-bottom: 0.35rem;
+}
+
+.product-name {
+  font-family: var(--font-serif);
+  font-size: 1.35rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+  transition: var(--transition);
+}
+.product-name:hover {
+  color: var(--gold-light);
+}
+
+/* Notes Preview */
+.product-notes-preview {
+  margin-bottom: 1rem;
+  font-size: 0.78rem;
+  line-height: 1.45;
+  color: var(--text-muted);
+  background: rgba(255, 255, 255, 0.02);
+  border-left: 2px solid var(--gold-border);
+  padding: 5px 8px;
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+}
+.product-notes-preview strong {
+  color: var(--text-secondary);
+}
+
+/* Size Selector Pills */
+.product-sizes-label {
+  font-size: 0.72rem;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-bottom: 0.4rem;
+}
+.product-sizes-wrap {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 1.2rem;
+}
+.size-pill {
+  flex: 1;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid var(--border-subtle);
+  color: var(--text-secondary);
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 6px 0;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  text-align: center;
+  transition: var(--transition);
+}
+.size-pill:hover {
+  border-color: var(--gold-border);
+  color: var(--gold-light);
+}
+.size-pill.active {
+  background: rgba(201, 162, 77, 0.15);
+  border-color: var(--gold-primary);
+  color: var(--gold-light);
+  font-weight: 700;
+}
+
+/* Price & Actions */
+.product-card-footer {
+  margin-top: auto;
+  border-top: 1px solid var(--border-subtle);
+  padding-top: 1rem;
+}
+.product-price-row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 0.9rem;
+}
+.price-tag {
+  font-family: var(--font-serif);
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--gold-light);
+}
+.price-unit {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  font-family: var(--font-sans);
+}
+
+.product-actions-dual {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+.btn-card-cart {
+  padding: 9px 8px;
+  font-size: 0.74rem;
+}
+.btn-card-whatsapp {
+  padding: 9px 8px;
+  font-size: 0.74rem;
+}
+
+/* --- Full Collection Section --- */
+.collection-section {
+  padding: 6rem 0;
+  background-color: var(--bg-primary);
+}
+
+.collection-toolbar {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  padding: 1.2rem;
+  margin-bottom: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.toolbar-top-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.search-input-wrap {
+  position: relative;
+  flex: 1;
+  min-width: 240px;
+}
+.search-icon {
+  position: absolute;
+  left: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--text-muted);
+  pointer-events: none;
+}
+.collection-search {
+  width: 100%;
+  background: var(--bg-tertiary);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-sm);
+  padding: 10px 14px 10px 40px;
+  font-size: 0.86rem;
+  color: var(--text-primary);
+  transition: var(--transition);
+}
+.collection-search:focus {
+  border-color: var(--gold-border);
+  box-shadow: 0 0 10px rgba(201, 162, 77, 0.15);
+}
+
+.sort-select-wrap {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.sort-label {
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--text-muted);
+}
+.collection-sort {
+  background: var(--bg-tertiary);
+  border: 1px solid var(--border-subtle);
+  color: var(--text-primary);
+  padding: 10px 14px;
+  border-radius: var(--radius-sm);
+  font-size: 0.84rem;
+  cursor: pointer;
+  transition: var(--transition);
+}
+.collection-sort:focus {
+  border-color: var(--gold-border);
+}
+
+/* Filter Tags Rows */
+.filters-group-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.filter-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.filter-row-title {
+  font-size: 0.74rem;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  color: var(--text-muted);
+  min-width: 80px;
+}
+
+.filter-btn {
+  background: transparent;
+  border: 1px solid var(--border-subtle);
+  color: var(--text-secondary);
+  font-size: 0.76rem;
+  font-weight: 500;
+  padding: 5px 14px;
+  border-radius: var(--radius-full);
+  cursor: pointer;
+  transition: var(--transition);
+}
+.filter-btn:hover {
+  border-color: var(--gold-border);
+  color: var(--gold-light);
+}
+.filter-btn.active {
+  background: rgba(201, 162, 77, 0.18);
+  border-color: var(--gold-primary);
+  color: var(--gold-light);
+  font-weight: 600;
+}
+
+.collection-results-count {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 4rem 1rem;
+  background: var(--bg-secondary);
+  border: 1px dashed var(--gold-border);
+  border-radius: var(--radius-md);
+}
+.empty-state-icon {
+  font-size: 2.5rem;
+  color: var(--gold-primary);
+  margin-bottom: 1rem;
+}
+.empty-state-title {
+  font-family: var(--font-serif);
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+.empty-state-text {
+  color: var(--text-muted);
+  margin-bottom: 1.5rem;
+}
+
+/* --- About ALHA Section --- */
+.about-section {
+  padding: 6.5rem 0;
+  background: var(--bg-secondary);
+  position: relative;
+  overflow: hidden;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 4rem;
+}
+
+.about-image-wrap {
+  position: relative;
+}
+.about-main-img {
+  width: 100%;
+  height: 480px;
+  object-fit: cover;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--gold-border);
+  box-shadow: var(--shadow-lg);
+}
+.about-badge-card {
+  position: absolute;
+  bottom: -20px;
+  right: -20px;
+  background: var(--bg-glass-strong);
+  backdrop-filter: blur(12px);
+  border: 1px solid var(--gold-border);
+  padding: 20px 24px;
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-md);
+}
+.about-badge-number {
+  font-family: var(--font-serif);
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: var(--gold-primary);
+  line-height: 1;
+}
+.about-badge-label {
+  font-size: 0.78rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+  margin-top: 4px;
+}
+
+.about-content-tag {
+  color: var(--gold-primary);
+  font-size: 0.8rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 0.8rem;
+}
+.about-title {
+  font-family: var(--font-serif);
+  font-size: clamp(2rem, 3.2vw, 2.7rem);
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 1.5rem;
+}
+.about-text {
+  color: var(--text-secondary);
+  font-size: 0.98rem;
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+}
+.about-highlights {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--border-subtle);
+}
+.highlight-item strong {
+  display: block;
+  font-size: 0.95rem;
+  color: var(--text-primary);
+  margin-bottom: 0.25rem;
+}
+.highlight-item span {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  line-height: 1.4;
+}
+
+/* --- Why Choose ALHA Section --- */
+.why-section {
+  padding: 6.5rem 0;
+  background-color: var(--bg-primary);
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem;
+}
+
+.feature-box {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  padding: 2.5rem 2rem;
+  transition: var(--transition);
+  position: relative;
+}
+.feature-box:hover {
+  border-color: var(--gold-border);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4), var(--gold-glow);
+  transform: translateY(-6px);
+}
+.feature-icon-wrap {
+  width: 58px;
+  height: 58px;
+  border-radius: var(--radius-sm);
+  background: var(--gold-gradient-soft);
+  border: 1px solid var(--gold-border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--gold-light);
+  font-size: 1.6rem;
+  margin-bottom: 1.5rem;
+}
+.feature-box-title {
+  font-family: var(--font-serif);
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  color: var(--text-primary);
+}
+.feature-box-desc {
+  font-size: 0.88rem;
+  color: var(--text-muted);
+  line-height: 1.65;
+}
+
+/* --- Customer Reviews Section --- */
+.reviews-section {
+  padding: 6.5rem 0;
+  background: var(--bg-secondary);
+  border-top: 1px solid var(--border-subtle);
+}
+
+.reviews-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.review-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  transition: var(--transition);
+}
+.review-card:hover {
+  border-color: var(--gold-border);
+  transform: translateY(-4px);
+}
+
+.review-rating {
+  color: var(--gold-primary);
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  gap: 3px;
+}
+.review-quote {
+  font-size: 0.92rem;
+  color: var(--text-secondary);
+  line-height: 1.7;
+  font-style: italic;
+  margin-bottom: 1.5rem;
+  flex-grow: 1;
+}
+.review-author {
+  border-top: 1px solid var(--border-subtle);
+  padding-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.author-info strong {
+  display: block;
+  font-size: 0.92rem;
+  color: var(--text-primary);
+}
+.author-info span {
+  font-size: 0.78rem;
+  color: var(--gold-light);
+}
+.review-perfume-tag {
+  font-size: 0.7rem;
+  color: var(--text-muted);
+  background: rgba(255, 255, 255, 0.05);
+  padding: 3px 8px;
+  border-radius: var(--radius-sm);
+}
+
+/* --- Delivery & Payment Info Section --- */
+.delivery-section {
+  padding: 6.5rem 0;
+  background-color: var(--bg-primary);
+}
+
+.delivery-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.delivery-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  padding: 2.2rem;
+  position: relative;
+}
+.delivery-card.local-highlight {
+  border-color: var(--gold-border);
+  background: linear-gradient(145deg, rgba(22, 22, 28, 0.95) 0%, rgba(28, 25, 18, 0.8) 100%);
+}
+.delivery-card-header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 1.5rem;
+}
+.delivery-card-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: var(--radius-sm);
+  background: var(--gold-gradient-soft);
+  border: 1px solid var(--gold-border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--gold-light);
+  font-size: 1.4rem;
+}
+.delivery-card-title {
+  font-family: var(--font-serif);
+  font-size: 1.3rem;
+  color: var(--text-primary);
+}
+.delivery-card-subtitle {
+  font-size: 0.8rem;
+  color: var(--gold-light);
+  letter-spacing: 0.5px;
+}
+
+.delivery-detail-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.delivery-detail-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid var(--border-subtle);
+  font-size: 0.88rem;
+}
+.delivery-detail-item:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+.delivery-detail-item span:first-child {
+  color: var(--text-muted);
+}
+.delivery-detail-item span:last-child {
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.payment-assurance-bar {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  padding: 1.5rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+.payment-assurance-text {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.payment-assurance-text i {
+  color: var(--gold-primary);
+  font-size: 1.6rem;
+}
+.payment-methods-badges {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.payment-badge {
+  background: var(--bg-tertiary);
+  border: 1px solid var(--border-subtle);
+  padding: 6px 12px;
+  border-radius: var(--radius-sm);
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+}
+
+/* --- Contact Section --- */
+.contact-section {
+  padding: 6.5rem 0;
+  background: var(--bg-secondary);
+  border-top: 1px solid var(--border-subtle);
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 3.5rem;
+}
+
+.contact-info-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.contact-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+}
+.contact-item-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: var(--radius-sm);
+  background: var(--gold-gradient-soft);
+  border: 1px solid var(--gold-border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--gold-light);
+  font-size: 1.2rem;
+  flex-shrink: 0;
+}
+.contact-item-content strong {
+  display: block;
+  font-size: 0.95rem;
+  margin-bottom: 0.2rem;
+  color: var(--text-primary);
+}
+.contact-item-content p, .contact-item-content a {
+  font-size: 0.88rem;
+  color: var(--text-muted);
+}
+.contact-item-content a:hover {
+  color: var(--gold-light);
+}
+
+/* Contact Form */
+.contact-form-wrap {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  padding: 2.5rem;
+}
+.contact-form-title {
+  font-family: var(--font-serif);
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+.contact-form-subtitle {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 1.8rem;
+}
+
+.form-group {
+  margin-bottom: 1.2rem;
+}
+.form-label {
+  display: block;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+  margin-bottom: 0.4rem;
+}
+.form-control {
+  width: 100%;
+  background: var(--bg-tertiary);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-sm);
+  padding: 12px 14px;
+  font-size: 0.88rem;
+  color: var(--text-primary);
+  transition: var(--transition);
+}
+.form-control:focus {
+  border-color: var(--gold-border);
+  background: rgba(23, 23, 29, 0.95);
+}
+textarea.form-control {
+  resize: vertical;
+  min-height: 110px;
+}
+
+/* --- Footer --- */
+.site-footer {
+  background: #060608;
+  border-top: 1px solid rgba(201, 162, 77, 0.15);
+  padding: 4.5rem 0 2rem;
+  color: var(--text-muted);
+}
+
+.footer-top {
+  display: grid;
+  grid-template-columns: 1.4fr 0.8fr 0.8fr 1fr;
+  gap: 3rem;
+  padding-bottom: 3.5rem;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.footer-brand p {
+  font-size: 0.86rem;
+  line-height: 1.7;
+  margin: 1.2rem 0;
+  max-width: 320px;
+}
+
+.footer-col-title {
+  font-family: var(--font-serif);
+  font-size: 1.15rem;
+  color: var(--text-primary);
+  margin-bottom: 1.2rem;
+  letter-spacing: 0.5px;
+}
+
+.footer-links-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+.footer-link {
+  font-size: 0.84rem;
+  color: var(--text-muted);
+  transition: var(--transition);
+}
+.footer-link:hover {
+  color: var(--gold-light);
+  transform: translateX(3px);
+}
+
+.footer-socials {
+  display: flex;
+  gap: 12px;
+  margin-top: 1rem;
+}
+.footer-social-btn {
+  width: 38px;
+  height: 38px;
+  border-radius: var(--radius-full);
+  background: var(--bg-tertiary);
+  border: 1px solid var(--border-subtle);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-secondary);
+  transition: var(--transition);
+}
+.footer-social-btn:hover {
+  border-color: var(--gold-primary);
+  color: var(--gold-light);
+  transform: translateY(-2px);
+}
+
+.footer-bottom {
+  padding-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+  font-size: 0.78rem;
+}
+
+/* --- Slide-Over Cart Drawer --- */
+.cart-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(5px);
+  z-index: 2000;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+.cart-overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.cart-drawer {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  max-width: 460px;
+  background: var(--bg-secondary);
+  border-left: 1px solid var(--gold-border);
+  box-shadow: var(--shadow-lg);
+  z-index: 2001;
+  transform: translateX(100%);
+  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+  display: flex;
+  flex-direction: column;
+}
+.cart-drawer.active {
+  transform: translateX(0);
+}
+
+.cart-header {
+  padding: 1.4rem 1.6rem;
+  border-bottom: 1px solid var(--border-subtle);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--bg-tertiary);
+}
+.cart-header-title {
+  font-family: var(--font-serif);
+  font-size: 1.35rem;
+  color: var(--text-primary);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.cart-close-btn {
+  background: transparent;
+  border: none;
+  color: var(--text-muted);
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 4px;
+  transition: var(--transition);
+}
+.cart-close-btn:hover {
+  color: var(--gold-light);
+}
+
+.cart-free-shipping-bar {
+  background: rgba(201, 162, 77, 0.08);
+  border-bottom: 1px solid var(--border-light);
+  padding: 10px 1.6rem;
+  font-size: 0.78rem;
+  text-align: center;
+  color: var(--gold-light);
+}
+
+.cart-items-list {
+  flex-grow: 1;
+  overflow-y: auto;
+  padding: 1.2rem 1.6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.cart-empty-msg {
+  text-align: center;
+  padding: 3rem 1rem;
+  color: var(--text-muted);
+}
+.cart-empty-icon {
+  font-size: 3rem;
+  color: var(--gold-primary);
+  margin-bottom: 1rem;
+  opacity: 0.6;
+}
+
+.cart-item {
+  display: grid;
+  grid-template-columns: 70px 1fr auto;
+  gap: 12px;
+  align-items: center;
+  background: var(--bg-tertiary);
+  border: 1px solid var(--border-subtle);
+  padding: 10px;
+  border-radius: var(--radius-sm);
+}
+.cart-item-img {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: var(--radius-sm);
+}
+.cart-item-details {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.cart-item-name {
+  font-family: var(--font-serif);
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+.cart-item-size {
+  font-size: 0.74rem;
+  color: var(--gold-light);
+}
+.cart-item-price {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+.cart-qty-ctrl {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 5px;
+}
+.btn-qty {
+  width: 22px;
+  height: 22px;
+  background: rgba(255, 255, 255, 0.08);
+  border: none;
+  color: var(--text-primary);
+  border-radius: 3px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+}
+.btn-qty:hover {
+  background: var(--gold-primary);
+  color: var(--text-dark);
+}
+.cart-qty-num {
+  font-size: 0.8rem;
+  font-weight: 600;
+  min-width: 16px;
+  text-align: center;
+}
+.cart-item-remove {
+  background: transparent;
+  border: none;
+  color: var(--text-muted);
+  cursor: pointer;
+  padding: 6px;
+  font-size: 0.9rem;
+  transition: var(--transition);
+}
+.cart-item-remove:hover {
+  color: #ff5555;
+}
+
+/* Cart Customer Info Form inside Drawer */
+.cart-customer-form {
+  padding: 1rem 1.6rem;
+  background: rgba(14, 14, 18, 0.6);
+  border-top: 1px solid var(--border-subtle);
+}
+.cart-customer-form-title {
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  color: var(--gold-light);
+  margin-bottom: 0.8rem;
+}
+.cart-input-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+.cart-input {
+  width: 100%;
+  background: var(--bg-tertiary);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-sm);
+  padding: 8px 10px;
+  font-size: 0.8rem;
+  color: var(--text-primary);
+}
+.cart-input:focus {
+  border-color: var(--gold-border);
+}
+
+/* Cart Footer */
+.cart-footer {
+  padding: 1.2rem 1.6rem;
+  border-top: 1px solid var(--border-subtle);
+  background: var(--bg-tertiary);
+}
+.cart-summary-line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.84rem;
+  margin-bottom: 0.5rem;
+  color: var(--text-secondary);
+}
+.cart-summary-line.total-line {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  border-top: 1px solid var(--border-subtle);
+  padding-top: 0.75rem;
+  margin-top: 0.75rem;
+}
+.cart-total-amount {
+  font-family: var(--font-serif);
+  color: var(--gold-light);
+  font-size: 1.3rem;
+}
+
+.cart-order-btn {
+  margin-top: 1rem;
+}
+
+/* --- Product Detail Modal --- */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.82);
+  backdrop-filter: blur(8px);
+  z-index: 2100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+.modal-overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal-content {
+  background: var(--bg-secondary);
+  border: 1px solid var(--gold-border);
+  border-radius: var(--radius-lg);
+  max-width: 880px;
+  width: 100%;
+  max-height: 90vh;
+  overflow-y: auto;
+  box-shadow: var(--shadow-lg), var(--gold-glow);
+  position: relative;
+  transform: translateY(20px);
+  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.modal-overlay.active .modal-content {
+  transform: translateY(0);
+}
+
+.modal-close-btn {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  background: rgba(14, 14, 18, 0.8);
+  border: 1px solid var(--border-subtle);
+  color: var(--text-secondary);
+  width: 38px;
+  height: 38px;
+  border-radius: var(--radius-full);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 10;
+  transition: var(--transition);
+}
+.modal-close-btn:hover {
+  background: var(--gold-primary);
+  color: var(--text-dark);
+}
+
+.modal-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.15fr;
+  gap: 2.5rem;
+  padding: 2.2rem;
+}
+
+.modal-image-wrap {
+  position: relative;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  border: 1px solid var(--border-subtle);
+  background: #000;
+}
+.modal-image-wrap img {
+  width: 100%;
+  height: 440px;
+  object-fit: cover;
+}
+
+.modal-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-badge-row {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 0.75rem;
+}
+
+.modal-perfume-title {
+  font-family: var(--font-serif);
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+}
+
+.modal-perfume-tagline {
+  font-size: 0.88rem;
+  color: var(--gold-light);
+  font-style: italic;
+  margin-bottom: 1.2rem;
+}
+
+.modal-price-box {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  background: rgba(201, 162, 77, 0.08);
+  border: 1px solid var(--border-light);
+  padding: 10px 16px;
+  border-radius: var(--radius-sm);
+  margin-bottom: 1.4rem;
+}
+.modal-price {
+  font-family: var(--font-serif);
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--gold-light);
+}
+
+.modal-description {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+}
+
+/* Scent Pyramid Box */
+.scent-pyramid-card {
+  background: var(--bg-tertiary);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-sm);
+  padding: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+.pyramid-title {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: var(--gold-primary);
+  margin-bottom: 0.8rem;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.pyramid-note-row {
+  display: flex;
+  font-size: 0.8rem;
+  margin-bottom: 0.5rem;
+}
+.pyramid-note-row:last-child {
+  margin-bottom: 0;
+}
+.pyramid-note-label {
+  min-width: 85px;
+  color: var(--text-muted);
+  font-weight: 600;
+}
+.pyramid-note-value {
+  color: var(--text-primary);
+}
+
+/* Modal Actions */
+.modal-qty-size-row {
+  display: flex;
+  gap: 1.2rem;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+.modal-qty-wrap {
+  display: flex;
+  align-items: center;
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-sm);
+  background: var(--bg-tertiary);
+}
+.btn-modal-qty {
+  width: 36px;
+  height: 38px;
+  background: transparent;
+  border: none;
+  color: var(--text-primary);
+  font-size: 1.1rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.modal-qty-value {
+  width: 36px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.modal-buttons-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-top: auto;
+}
+
+.modal-perks {
+  display: flex;
+  gap: 15px;
+  margin-top: 1.2rem;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+.modal-perks span {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+/* --- Toast Notification --- */
+.toast-container {
+  position: fixed;
+  bottom: 25px;
+  left: 25px;
+  z-index: 3000;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.toast {
+  background: var(--bg-glass-strong);
+  backdrop-filter: blur(12px);
+  border: 1px solid var(--gold-border);
+  color: var(--text-primary);
+  padding: 12px 18px;
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow-lg), var(--gold-glow);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 0.85rem;
+  animation: toastIn 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+.toast-icon {
+  color: var(--gold-primary);
+  font-size: 1.1rem;
+}
+@keyframes toastIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Floating WhatsApp Quick Button */
+.floating-whatsapp-btn {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  width: 56px;
+  height: 56px;
+  border-radius: var(--radius-full);
+  background-color: var(--whatsapp-color);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  box-shadow: 0 6px 25px rgba(37, 211, 102, 0.45);
+  z-index: 999;
+  cursor: pointer;
+  transition: var(--transition);
+  text-decoration: none;
+}
+.floating-whatsapp-btn:hover {
+  background-color: var(--whatsapp-hover);
+  transform: scale(1.1);
+  box-shadow: 0 8px 30px rgba(37, 211, 102, 0.6);
+}
+.whatsapp-tooltip {
+  position: absolute;
+  right: 68px;
+  background: var(--bg-tertiary);
+  color: var(--text-primary);
+  border: 1px solid var(--gold-border);
+  padding: 6px 12px;
+  border-radius: var(--radius-sm);
+  font-size: 0.76rem;
+  white-space: nowrap;
+  pointer-events: none;
+  opacity: 0;
+  transition: var(--transition);
+}
+.floating-whatsapp-btn:hover .whatsapp-tooltip {
+  opacity: 1;
+}
+
+/* --- Responsive Media Queries --- */
+@media (max-width: 1024px) {
+  .hero-grid {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+  .hero-visual {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  .about-grid {
+    grid-template-columns: 1fr;
+  }
+  .about-image-wrap {
+    max-width: 550px;
+    margin: 0 auto;
+  }
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+  .footer-top {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    position: fixed;
+    top: 78px;
+    left: 0;
+    right: 0;
+    background: var(--bg-glass-strong);
+    backdrop-filter: blur(20px);
+    flex-direction: column;
+    padding: 2rem 1rem;
+    gap: 1.5rem;
+    border-bottom: 1px solid var(--gold-border);
+    transform: translateY(-120%);
+    transition: transform 0.4s ease;
+  }
+  .nav-links.mobile-active {
+    transform: translateY(0);
+  }
+  .mobile-menu-btn {
+    display: block;
+  }
+  .nav-whatsapp-link {
+    display: none;
+  }
+  .delivery-grid {
+    grid-template-columns: 1fr;
+  }
+  .modal-grid {
+    grid-template-columns: 1fr;
+    padding: 1.5rem;
+  }
+  .modal-image-wrap img {
+    height: 300px;
+  }
+  .modal-buttons-row {
+    grid-template-columns: 1fr;
+  }
+  .footer-top {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .product-actions-dual {
+    grid-template-columns: 1fr;
+  }
+  .cart-drawer {
+    max-width: 100%;
+  }
+  .hero-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .hero-actions .btn {
+    width: 100%;
+  }
+  .hero-features {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+}
+
+  </style>
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <aside class="announcement-bar" aria-label="Store Announcement">
+    <div class="container announcement-content">
+      <span>✦ <strong>Complimentary Express Delivery</strong> on all orders over Rs. 4,000</span>
+      <span class="announcement-dot">•</span>
+      <span>Abbottabad Priority Dispatch (24–48 Hours)</span>
+      <span class="announcement-dot">•</span>
+      <span><strong>Cash on Delivery (COD)</strong> Available Across Pakistan</span>
+    </div>
+  </aside>
+
+  <!-- Sticky Glassmorphic Navbar -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <!-- Brand Logo -->
+      <a href="#hero" class="brand-logo" aria-label="ALHA Home">
+        <span class="logo-title">ALHA<span>.</span></span>
+        <span class="logo-tagline">Parfums • Abbottabad</span>
+      </a>
+
+      <!-- Desktop & Mobile Navigation Links -->
+      <nav class="nav-links" id="navLinks" aria-label="Main Navigation">
+        <a href="#hero" class="nav-link active">Home</a>
+        <a href="#featured" class="nav-link">Bestsellers</a>
+        <a href="#collection" class="nav-link">Collection</a>
+        <a href="#about" class="nav-link">Our Story</a>
+        <a href="#why-us" class="nav-link">Why ALHA</a>
+        <a href="#delivery" class="nav-link">Delivery & COD</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <!-- Navigation Actions -->
+      <div class="nav-actions">
+        <!-- Direct WhatsApp Link Button -->
+        <a href="#" target="_blank" rel="noopener noreferrer" class="nav-whatsapp-link" id="navWhatsAppBtn" title="Chat on WhatsApp">
+          <i class="ri-whatsapp-line"></i>
+          <span>WhatsApp Us</span>
+        </a>
+
+        <!-- Cart Button with Counter Badge -->
+        <button type="button" class="nav-cart-btn" id="navCartBtn" aria-label="View Shopping Cart">
+          <i class="ri-shopping-bag-3-line" style="font-size: 1.25rem;"></i>
+          <span class="cart-count-badge" id="cartBadge">0</span>
+        </button>
+
+        <!-- Mobile Hamburger Toggle -->
+        <button type="button" class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Open Navigation Menu">
+          <i class="ri-menu-3-line"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+      <div class="hero-bg-overlay"></div>
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="hero-tagline">
+            <span class="badge-gold">
+              <i class="ri-sparkling-fill"></i> Artisanal Perfumery • Abbottabad, Pakistan
+            </span>
+          </div>
+
+          <h1 class="hero-title">
+            The Essence of <em>Elegance</em> & Pure Longevity.
+          </h1>
+
+          <p class="hero-description">
+            Handcrafted Extrait de Parfum blending rare Cambodian agarwood, Kashmiri saffron, and Abbottabad's crisp pine mist. Experience exceptional 12+ hour sillage created for true fragrance connoisseurs.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#collection" class="btn btn-primary">
+              <span>Explore Collection</span>
+              <i class="ri-arrow-right-line"></i>
+            </a>
+            <a href="#featured" class="btn btn-outline">
+              <i class="ri-fire-line text-gold"></i>
+              <span>View Bestsellers</span>
+            </a>
+          </div>
+
+          <div class="hero-features">
+            <div class="hero-feature-item">
+              <i class="ri-time-line"></i>
+              <div class="hero-feature-text">
+                <strong>12+ Hours</strong>
+                <span>Long-Lasting Extrait</span>
+              </div>
+            </div>
+            <div class="hero-feature-item">
+              <i class="ri-shield-check-line"></i>
+              <div class="hero-feature-text">
+                <strong>100% Authentic</strong>
+                <span>Pure French & Niche Oils</span>
+              </div>
+            </div>
+            <div class="hero-feature-item">
+              <i class="ri-truck-line"></i>
+              <div class="hero-feature-text">
+                <strong>Cash on Delivery</strong>
+                <span>Abbottabad & Nationwide</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Visual Showcase -->
+        <div class="hero-visual">
+          <div class="hero-image-card">
+            <img src="assets/images/hero-perfume.jpg" 
+                 alt="ALHA Signature Luxury Perfume Flacon" 
+                 loading="eager"
+                 onerror="this.src='https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?auto=format&fit=crop&w=1000&q=80'">
+            <div class="hero-floating-badge">
+              <div>
+                <span class="floating-badge-sub">Signature Bottle</span>
+                <h4 class="floating-badge-title">Alha Royal Oud</h4>
+              </div>
+              <span class="badge-gold">From Rs. 3,200</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured / Best-Sellers Section -->
+    <section class="featured-section" id="featured">
+      <div class="container">
+        <header class="section-header">
+          <span class="section-tag">Curated Signatures</span>
+          <h2 class="section-title">Best-Selling Fragrances</h2>
+          <p class="section-subtitle">
+            Our most revered perfumes, celebrated across Abbottabad and nationwide for their commanding presence and unforgettable dry-down.
+          </p>
+        </header>
+
+        <!-- Dynamic Featured Products Grid -->
+        <div class="product-grid" id="featuredGrid">
+          <!-- Populated by embedded JavaScript -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Full Collection Section with Interactive Filters -->
+    <section class="collection-section" id="collection">
+      <div class="container">
+        <header class="section-header">
+          <span class="section-tag">Complete Olfactory Vault</span>
+          <h2 class="section-title">The ALHA Collection</h2>
+          <p class="section-subtitle">
+            Discover your signature scent from our 12 handcrafted perfumes. Select bottle sizes (30ml, 50ml, 100ml) with instant PKR price updates.
+          </p>
+        </header>
+
+        <!-- Filter & Search Toolbar -->
+        <div class="collection-toolbar">
+          <div class="toolbar-top-row">
+            <!-- Search Input -->
+            <div class="search-input-wrap">
+              <i class="ri-search-line search-icon"></i>
+              <input type="text" id="collectionSearch" class="collection-search" placeholder="Search by name, scent notes (e.g. Saffron, Amber, Rose)...">
+            </div>
+
+            <!-- Sort Dropdown -->
+            <div class="sort-select-wrap">
+              <label for="collectionSort" class="sort-label">Sort By:</label>
+              <select id="collectionSort" class="collection-sort">
+                <option value="featured">Featured / Curated</option>
+                <option value="price-asc">Price: Low to High</option>
+                <option value="price-desc">Price: High to Low</option>
+                <option value="rating">Highest Rated</option>
+                <option value="name-asc">Alphabetical (A–Z)</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- Filter Pill Tags -->
+          <div class="filters-group-wrap">
+            <!-- Gender Filter Row -->
+            <div class="filter-row">
+              <span class="filter-row-title">Gender:</span>
+              <button type="button" class="filter-btn filter-gender-btn active" data-gender="All">All Fragrances</button>
+              <button type="button" class="filter-btn filter-gender-btn" data-gender="Men">Men</button>
+              <button type="button" class="filter-btn filter-gender-btn" data-gender="Women">Women</button>
+              <button type="button" class="filter-btn filter-gender-btn" data-gender="Unisex">Unisex</button>
+            </div>
+
+            <!-- Category Filter Row -->
+            <div class="filter-row">
+              <span class="filter-row-title">Family:</span>
+              <button type="button" class="filter-btn filter-category-btn active" data-category="All">All Families</button>
+              <button type="button" class="filter-btn filter-category-btn" data-category="Oud">Oud & Woods</button>
+              <button type="button" class="filter-btn filter-category-btn" data-category="Amber">Amber & Oriental</button>
+              <button type="button" class="filter-btn filter-category-btn" data-category="Fresh">Fresh & Mountain</button>
+              <button type="button" class="filter-btn filter-category-btn" data-category="Floral">Floral & Rose</button>
+              <button type="button" class="filter-btn filter-category-btn" data-category="Gourmand">Sweet & Vanilla</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Results Count Display -->
+        <div class="collection-results-count">
+          <span id="collectionCount">Showing 12 Fragrances</span>
+          <span style="font-size: 0.78rem; color: var(--gold-light);">*Prices update instantly when you switch sizes</span>
+        </div>
+
+        <!-- Full Collection Grid -->
+        <div class="product-grid" id="collectionGrid">
+          <!-- Populated dynamically by embedded JavaScript -->
+        </div>
+      </div>
+    </section>
+
+    <!-- About ALHA Section -->
+    <section class="about-section" id="about">
+      <div class="container about-grid">
+        <div class="about-image-wrap">
+          <img src="assets/images/about-craft.jpg" 
+               alt="Artisanal Perfume Craftsmanship at ALHA" 
+               class="about-main-img" 
+               loading="lazy"
+               onerror="this.src='https://images.unsplash.com/photo-1616949755610-8c9bbc08f138?auto=format&fit=crop&w=800&q=80'">
+          <div class="about-badge-card">
+            <div class="about-badge-number">35%</div>
+            <div class="about-badge-label">Pure Fragrance Oil Concentration</div>
+          </div>
+        </div>
+
+        <div class="about-content">
+          <span class="about-content-tag">Artisanship from Hazara</span>
+          <h2 class="about-title">Born in the Misty Pines of Abbottabad</h2>
+          
+          <p class="about-text">
+            ALHA was established with a singular vision: to bridge the timeless opulence of royal Eastern perfumery with the refined subtlety of Grasse craftsmanship, rooted in the serene mountain climate of Abbottabad.
+          </p>
+
+          <p class="about-text">
+            Operating as an exclusive, online-only fragrance house allows us to direct every resource into sourcing the finest raw oils—Cambodian agarwood, Isparta roses, and wild mountain mosses—without the bloated markups of commercial retail storefronts.
+          </p>
+
+          <div class="about-highlights">
+            <div class="highlight-item">
+              <strong>Extrait de Parfum Grade</strong>
+              <span>Formulated with 30–35% pure essence for an authentic 8 to 12+ hour sillage.</span>
+            </div>
+            <div class="highlight-item">
+              <strong>Direct Workshop Pricing</strong>
+              <span>Niche fragrance quality at fair prices tailored for our patrons in Abbottabad and Pakistan.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Choose ALHA Section -->
+    <section class="why-section" id="why-us">
+      <div class="container">
+        <header class="section-header">
+          <span class="section-tag">The ALHA Distinction</span>
+          <h2 class="section-title">Why Connoisseurs Choose Us</h2>
+          <p class="section-subtitle">
+            We hold our fragrances to the highest standard of longevity, authenticity, and customer transparency.
+          </p>
+        </header>
+
+        <div class="features-grid">
+          <div class="feature-box">
+            <div class="feature-icon-wrap">
+              <i class="ri-timer-flash-line"></i>
+            </div>
+            <h3 class="feature-box-title">8 to 12+ Hours Longevity</h3>
+            <p class="feature-box-desc">
+              Every blend is cured and macerated to ensure deep projection and enduring base notes that last from morning to midnight.
+            </p>
+          </div>
+
+          <div class="feature-box">
+            <div class="feature-icon-wrap">
+              <i class="ri-award-line"></i>
+            </div>
+            <h3 class="feature-box-title">100% Authentic Ingredients</h3>
+            <p class="feature-box-desc">
+              We never use synthetic fillers or harsh chemicals. Only premium, skin-safe concentrates sourced from reputable distillers.
+            </p>
+          </div>
+
+          <div class="feature-box">
+            <div class="feature-icon-wrap">
+              <i class="ri-map-pin-user-line"></i>
+            </div>
+            <h3 class="feature-box-title">Priority Abbottabad Dispatch</h3>
+            <p class="feature-box-desc">
+              Local Abbottabad orders enjoy swift 24 to 48-hour delivery. Nationwide express shipping delivers across Pakistan in 2–4 days.
+            </p>
+          </div>
+
+          <div class="feature-box">
+            <div class="feature-icon-wrap">
+              <i class="ri-hand-coin-line"></i>
+            </div>
+            <h3 class="feature-box-title">Cash on Delivery (COD)</h3>
+            <p class="feature-box-desc">
+              Order with absolute peace of mind. Pay the courier only when the luxury parcel arrives securely at your doorstep.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Customer Reviews Section -->
+    <section class="reviews-section" id="reviews">
+      <div class="container">
+        <header class="section-header">
+          <span class="section-tag">Customer Reflections</span>
+          <h2 class="section-title">Words from Our Patrons</h2>
+          <p class="section-subtitle">
+            Read verified reviews from fragrance lovers across Abbottabad, Islamabad, Lahore, and beyond.
+          </p>
+        </header>
+
+        <div class="reviews-grid" id="reviewsGrid">
+          <!-- Populated by embedded JavaScript -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Delivery & Payment Information Section -->
+    <section class="delivery-section" id="delivery">
+      <div class="container">
+        <header class="section-header">
+          <span class="section-tag">Transparent Policies</span>
+          <h2 class="section-title">Delivery & Payment Guide</h2>
+          <p class="section-subtitle">
+            Reliable courier fulfillment tailored for the Abbottabad / Hazara region and every corner of Pakistan.
+          </p>
+        </header>
+
+        <div class="delivery-grid">
+          <!-- Local Delivery Card -->
+          <div class="delivery-card local-highlight">
+            <div class="delivery-card-header">
+              <div class="delivery-card-icon">
+                <i class="ri-map-pin-range-line"></i>
+              </div>
+              <div>
+                <h3 class="delivery-card-title">Abbottabad & Hazara Region</h3>
+                <span class="delivery-card-subtitle">Local Priority Dispatch</span>
+              </div>
+            </div>
+
+            <div class="delivery-detail-list">
+              <div class="delivery-detail-item">
+                <span>Estimated Transit Time:</span>
+                <span>24 – 48 Hours</span>
+              </div>
+              <div class="delivery-detail-item">
+                <span>Standard Delivery Fee:</span>
+                <span>Rs. 150</span>
+              </div>
+              <div class="delivery-detail-item">
+                <span>Free Shipping Qualified:</span>
+                <span class="text-gold">Orders over Rs. 3,500</span>
+              </div>
+              <div class="delivery-detail-item">
+                <span>Coverage:</span>
+                <span>City Center, Supply, PMA Kakul, Mandian, Havelian</span>
+              </div>
+              <div class="delivery-detail-item">
+                <span>Payment Accepted:</span>
+                <span>Cash on Delivery (COD) / Bank Transfer</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Nationwide Delivery Card -->
+          <div class="delivery-card">
+            <div class="delivery-card-header">
+              <div class="delivery-card-icon">
+                <i class="ri-truck-fill"></i>
+              </div>
+              <div>
+                <h3 class="delivery-card-title">All Across Pakistan</h3>
+                <span class="delivery-card-subtitle">TCS / Leopards / Trax Express</span>
+              </div>
+            </div>
+
+            <div class="delivery-detail-list">
+              <div class="delivery-detail-item">
+                <span>Estimated Transit Time:</span>
+                <span>2 – 4 Working Days</span>
+              </div>
+              <div class="delivery-detail-item">
+                <span>Standard Shipping Fee:</span>
+                <span>Rs. 250</span>
+              </div>
+              <div class="delivery-detail-item">
+                <span>Free Shipping Qualified:</span>
+                <span class="text-gold">Orders over Rs. 4,000</span>
+              </div>
+              <div class="delivery-detail-item">
+                <span>Tracking:</span>
+                <span>SMS Tracking ID provided on dispatch</span>
+              </div>
+              <div class="delivery-detail-item">
+                <span>Payment Accepted:</span>
+                <span>Cash on Delivery (COD) / JazzCash / EasyPaisa</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Payment Assurance Banner -->
+        <div class="payment-assurance-bar">
+          <div class="payment-assurance-text">
+            <i class="ri-shield-keyhole-line"></i>
+            <div>
+              <strong style="color: var(--text-primary); font-size: 0.95rem;">100% Risk-Free Ordering</strong>
+              <p style="font-size: 0.82rem; color: var(--text-muted); margin-top: 2px;">
+                Inspect your package upon delivery. We package every perfume bottle in multi-layered luxury gift packaging with bubble-seal protection.
+              </p>
+            </div>
+          </div>
+          <div class="payment-methods-badges">
+            <span class="payment-badge"><i class="ri-hand-coin-line"></i> Cash on Delivery</span>
+            <span class="payment-badge"><i class="ri-bank-line"></i> Bank Transfer</span>
+            <span class="payment-badge"><i class="ri-smartphone-line"></i> JazzCash / EasyPaisa</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact & Direct Order Inquiry Section -->
+    <section class="contact-section" id="contact">
+      <div class="container">
+        <header class="section-header">
+          <span class="section-tag">Concierge Assistance</span>
+          <h2 class="section-title">Connect with ALHA</h2>
+          <p class="section-subtitle">
+            Need guidance choosing your signature note? Have a custom gifting requirement? Our fragrance concierge is available on WhatsApp.
+          </p>
+        </header>
+
+        <div class="contact-grid">
+          <div class="contact-info-wrap">
+            <div class="contact-item">
+              <div class="contact-item-icon"><i class="ri-whatsapp-line"></i></div>
+              <div class="contact-item-content">
+                <strong>WhatsApp Concierge (Fastest Response)</strong>
+                <p>Chat directly with our fragrance consultant for instant recommendations and order tracking.</p>
+                <a href="#" target="_blank" id="contactDirectWaBtn" class="text-gold" style="font-weight: 600; margin-top: 5px; display: inline-block;">
+                  Open WhatsApp Chat <i class="ri-external-link-line"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-item-icon"><i class="ri-phone-line"></i></div>
+              <div class="contact-item-content">
+                <strong>Phone & WhatsApp Support</strong>
+                <p><a href="https://wa.me/923265676991" target="_blank" class="text-gold" style="font-weight: 600;">03265676991</a> / +92 326 5676991 (Mon – Sat, 10:00 AM – 8:00 PM PKT)</p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-item-icon"><i class="ri-mail-send-line"></i></div>
+              <div class="contact-item-content">
+                <strong>Email Inquiries</strong>
+                <p><a href="mailto:a85688848@gmail.com" class="text-gold" style="font-weight: 600;">a85688848@gmail.com</a></p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-item-icon"><i class="ri-store-2-line"></i></div>
+              <div class="contact-item-content">
+                <strong>Online-Only Model</strong>
+                <p>We are a dedicated e-commerce boutique based in Abbottabad, KP. All fragrances are dispatched fresh directly to your residence.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Direct Inquiry Form -->
+          <div class="contact-form-wrap">
+            <h3 class="contact-form-title">Send a Fragrance Inquiry</h3>
+            <p class="contact-form-subtitle">Submit your message below to send directly to our WhatsApp support team.</p>
+
+            <form id="contactForm">
+              <div class="form-group">
+                <label for="contactName" class="form-label">Full Name</label>
+                <input type="text" id="contactName" class="form-control" placeholder="e.g. Daniyal Khan" required>
+              </div>
+
+              <div class="form-group">
+                <label for="contactPhone" class="form-label">WhatsApp / Phone Number</label>
+                <input type="tel" id="contactPhone" class="form-control" placeholder="0300 1234567" required>
+              </div>
+
+              <div class="form-group">
+                <label for="contactMessage" class="form-label">Your Inquiry / Perfume Questions</label>
+                <textarea id="contactMessage" class="form-control" placeholder="Tell us what scent notes you prefer (e.g., woody, fresh, sweet, oud)..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-block">
+                <i class="ri-send-plane-fill"></i> Send Message on WhatsApp
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container footer-top">
+      <div class="footer-brand">
+        <a href="#hero" class="brand-logo">
+          <span class="logo-title">ALHA<span>.</span></span>
+          <span class="logo-tagline">Parfums • Abbottabad</span>
+        </a>
+        <p>
+          High-concentration artisanal luxury fragrances crafted for distinguished presence. Handcrafted in Abbottabad, Khyber Pakhtunkhwa, and delivered across Pakistan.
+        </p>
+        <div class="footer-socials">
+          <a href="#" class="footer-social-btn" title="Instagram" target="_blank" rel="noopener"><i class="ri-instagram-line"></i></a>
+          <a href="#" class="footer-social-btn" title="Facebook" target="_blank" rel="noopener"><i class="ri-facebook-fill"></i></a>
+          <a href="https://wa.me/923265676991?text=Hello%20ALHA%2C%20I%20am%20contacting%20you%20from%20your%20website%20regarding%20your%20luxury%20perfume%20collection." id="footerSocialWaBtn" class="footer-social-btn" title="WhatsApp" target="_blank" rel="noopener"><i class="ri-whatsapp-line"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-col-title">Fragrance Vault</h4>
+        <ul class="footer-links-list">
+          <li><a href="#collection" class="footer-link">Oud & Woods</a></li>
+          <li><a href="#collection" class="footer-link">Amber Orientals</a></li>
+          <li><a href="#collection" class="footer-link">Mountain Fresh Accords</a></li>
+          <li><a href="#collection" class="footer-link">Floral & Rose</a></li>
+          <li><a href="#collection" class="footer-link">Sweet & Gourmand</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-col-title">Client Concierge</h4>
+        <ul class="footer-links-list">
+          <li><a href="#delivery" class="footer-link">Cash on Delivery Info</a></li>
+          <li><a href="#delivery" class="footer-link">Abbottabad Shipping</a></li>
+          <li><a href="#about" class="footer-link">Our Brand Philosophy</a></li>
+          <li><a href="#reviews" class="footer-link">Client Reviews</a></li>
+          <li><a href="#contact" class="footer-link">WhatsApp Support</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-col-title">Direct WhatsApp Orders</h4>
+        <p style="font-size: 0.82rem; margin-bottom: 1rem; color: var(--text-muted);">
+          Prefer ordering quickly via chat? Click below to send your order directly to our Abbottabad team.
+        </p>
+        <a href="#" target="_blank" id="footerOrderWaBtn" class="btn btn-whatsapp btn-sm btn-block">
+          <i class="ri-whatsapp-line"></i> Chat & Order Directly
+        </a>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <div>
+        © 2026 ALHA Luxury Fragrances. All rights reserved. Abbottabad, KP, Pakistan.
+      </div>
+      <div style="color: var(--text-muted);">
+        Online-Only Fragrance House • Cash on Delivery Nationwide
+      </div>
+    </div>
+  </footer>
+
+  <!-- Slide-Over Cart Drawer -->
+  <div class="cart-overlay" id="cartOverlay"></div>
+  <aside class="cart-drawer" id="cartDrawer" aria-label="Shopping Cart Drawer">
+    <div class="cart-header">
+      <div class="cart-header-title">
+        <i class="ri-shopping-bag-3-fill text-gold"></i>
+        <span>Your Fragrance Bag</span>
+      </div>
+      <button type="button" class="cart-close-btn" id="cartCloseBtn" aria-label="Close Cart">
+        <i class="ri-close-line"></i>
+      </button>
+    </div>
+
+    <!-- Free Shipping Progress Indicator -->
+    <div class="cart-free-shipping-bar" id="cartFreeShippingProgress">
+      Free nationwide express shipping on orders over Rs. 4,000
+    </div>
+
+    <!-- Cart Item List -->
+    <div class="cart-items-list" id="cartItemsList">
+      <!-- Populated dynamically by embedded JavaScript -->
+    </div>
+
+    <!-- Quick Delivery Details inside Cart -->
+    <div class="cart-customer-form">
+      <div class="cart-customer-form-title">
+        <i class="ri-map-pin-line text-gold"></i> Order Delivery Details
+      </div>
+      <div class="cart-input-row">
+        <input type="text" id="cartCustomerName" class="cart-input" placeholder="Your Name (e.g. Daniyal)">
+        <select id="cartCitySelect" class="cart-input">
+          <option value="Abbottabad" selected>Abbottabad (Local)</option>
+          <option value="Islamabad">Islamabad / Rawalpindi</option>
+          <option value="Peshawar">Peshawar</option>
+          <option value="Lahore">Lahore</option>
+          <option value="Karachi">Karachi</option>
+          <option value="Other City">Other Pakistan City</option>
+        </select>
+      </div>
+      <input type="text" id="cartCustomerAddress" class="cart-input" placeholder="Complete Street Address / Sector / Area">
+    </div>
+
+    <!-- Cart Footer with Totals and WhatsApp Order Button -->
+    <div class="cart-footer">
+      <div class="cart-summary-line">
+        <span>Subtotal:</span>
+        <strong id="cartSubtotal">Rs. 0</strong>
+      </div>
+      <div class="cart-summary-line">
+        <span>Estimated Delivery:</span>
+        <span id="cartShippingFee">Rs. 150</span>
+      </div>
+      <div class="cart-summary-line total-line">
+        <span>Grand Total (COD):</span>
+        <span class="cart-total-amount" id="cartGrandTotal">Rs. 0</span>
+      </div>
+
+      <button type="button" class="btn btn-whatsapp btn-block cart-order-btn" id="cartPlaceOrderWaBtn">
+        <i class="ri-whatsapp-line" style="font-size: 1.2rem;"></i>
+        <span>Place Order on WhatsApp</span>
+      </button>
+    </div>
+  </aside>
+
+  <!-- Product Detail Modal -->
+  <div class="modal-overlay" id="productModal" role="dialog" aria-modal="true">
+    <div class="modal-content">
+      <button type="button" class="modal-close-btn" id="modalCloseBtn" aria-label="Close details">
+        <i class="ri-close-line"></i>
+      </button>
+
+      <div class="modal-grid">
+        <!-- Big Product Image -->
+        <div class="modal-image-wrap">
+          <img src="" alt="Perfume" id="modalImage">
+        </div>
+
+        <!-- Product Specs & Actions -->
+        <div class="modal-details">
+          <div class="modal-badge-row">
+            <span class="badge-gold" id="modalCategory">Oud</span>
+            <span class="product-gender-tag" id="modalGender">Unisex</span>
+          </div>
+
+          <h2 class="modal-perfume-title" id="modalTitle">Perfume Name</h2>
+          <p class="modal-perfume-tagline" id="modalTagline">Fragrance subtitle</p>
+
+          <div class="modal-price-box">
+            <span class="modal-price" id="modalPrice">Rs. 4,500</span>
+            <span style="font-size: 0.8rem; color: var(--text-muted);">Cash on Delivery Included</span>
+          </div>
+
+          <p class="modal-description" id="modalDesc">Detailed description of the fragrance profile and experience.</p>
+
+          <!-- Scent Pyramid -->
+          <div class="scent-pyramid-card">
+            <div class="pyramid-title">
+              <i class="ri-drop-line"></i> Fragrance Pyramid
+            </div>
+            <div class="pyramid-note-row">
+              <span class="pyramid-note-label">Top Notes:</span>
+              <span class="pyramid-note-value" id="modalTopNotes">Saffron, Bergamot</span>
+            </div>
+            <div class="pyramid-note-row">
+              <span class="pyramid-note-label">Heart Notes:</span>
+              <span class="pyramid-note-value" id="modalHeartNotes">Centifolia Rose, Oud</span>
+            </div>
+            <div class="pyramid-note-row">
+              <span class="pyramid-note-label">Base Notes:</span>
+              <span class="pyramid-note-value" id="modalBaseNotes">Smoked Amber, Musk</span>
+            </div>
+          </div>
+
+          <!-- Size Selector -->
+          <div class="product-sizes-label">Select Bottle Size:</div>
+          <div class="product-sizes-wrap" id="modalSizesWrap">
+            <!-- Dynamic sizes -->
+          </div>
+
+          <!-- Quantity & Action Buttons -->
+          <div class="modal-qty-size-row">
+            <span style="font-size: 0.8rem; color: var(--text-muted); text-transform: uppercase;">Quantity:</span>
+            <div class="modal-qty-wrap">
+              <button type="button" class="btn-modal-qty" id="modalQtyMinus">-</button>
+              <span class="modal-qty-value" id="modalQtyDisplay">1</span>
+              <button type="button" class="btn-modal-qty" id="modalQtyPlus">+</button>
+            </div>
+          </div>
+
+          <div class="modal-buttons-row">
+            <button type="button" class="btn btn-primary" id="modalAddToCartBtn">
+              <i class="ri-shopping-bag-line"></i> Add To Bag
+            </button>
+            <button type="button" class="btn btn-whatsapp" id="modalOrderWhatsAppBtn">
+              <i class="ri-whatsapp-line"></i> Order on WhatsApp
+            </button>
+          </div>
+
+          <div class="modal-perks">
+            <span><i class="ri-check-line text-gold"></i> 100% Authentic Extrait</span>
+            <span><i class="ri-check-line text-gold"></i> 24h Abbottabad Dispatch</span>
+            <span><i class="ri-check-line text-gold"></i> Cash on Delivery</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Floating Quick WhatsApp Button -->
+  <a href="#" target="_blank" rel="noopener noreferrer" class="floating-whatsapp-btn" id="floatingWhatsAppBtn" aria-label="Chat on WhatsApp">
+    <i class="ri-whatsapp-fill"></i>
+    <span class="whatsapp-tooltip">Order on WhatsApp</span>
+  </a>
+
+  <!-- Embedded JavaScript Application -->
+  <script>
+/* ==========================================================================
+   PRODUCTS & STORE CONFIGURATION
+   ========================================================================== */
+/**
+ * ==========================================================================
+ * ALHA - Luxury Fragrances (Abbottabad, Pakistan)
+ * Store Data & Configuration File
+ * ==========================================================================
+ * 
+ * OWNER EDIT INSTRUCTIONS:
+ * 1. To change your WhatsApp ordering number, update WHATSAPP_NUMBER below.
+ *    (Format without '+' or spaces, e.g., '923001234567')
+ * 2. To change prices or add/remove sizes, edit the `sizes` array for any product.
+ * 3. To update product images, save your real photos in the `assets/images/` 
+ *    folder and update the `image` property with the filename.
+ */
+
+// Store WhatsApp number
+const WHATSAPP_NUMBER = "923265676991";
+
+// Store Configuration & Delivery Policies
+const STORE_CONFIG = {
+  brandName: "ALHA",
+  tagline: "The Essence of Elegance",
+  city: "Abbottabad",
+  region: "Hazara, Khyber Pakhtunkhwa, Pakistan",
+  currencySymbol: "Rs.",
+  freeDeliveryThreshold: 4000, // PKR
+  shippingAbbottabad: {
+    fee: 150,
+    time: "24 – 48 Hours",
+    note: "Priority local dispatch within Abbottabad city & surroundings"
+  },
+  shippingNationwide: {
+    fee: 250,
+    time: "2 – 4 Working Days",
+    note: "Tracked express courier (TCS / Leopards / Trax) across Pakistan"
+  },
+  paymentMethods: [
+    "Cash on Delivery (COD)",
+    "Direct Bank Transfer",
+    "JazzCash / EasyPaisa"
+  ],
+  contact: {
+    phone: "03265676991",
+    whatsapp: "03265676991",
+    email: "a85688848@gmail.com",
+    instagram: "@alha.fragrances",
+    facebook: "facebook.com/alhafragrances"
+  }
+};
+
+// 12 Handcrafted Luxury Perfumes with Realistic Notes, Sizes, & PKR Pricing
+const PRODUCTS = [
+  {
+    id: 1,
+    name: "Alha Royal Oud",
+    tagline: "Imperial Cambodian Oud infused with Kashmiri saffron & dark amber",
+    category: "Oud",
+    gender: "Unisex",
+    badge: "Bestseller",
+    isFeatured: true,
+    rating: 4.9,
+    reviewsCount: 38,
+    image: "royal-oud.jpg",
+    description: "An opulent, aristocratic composition designed for royalty. Alha Royal Oud opens with rare Kashmiri saffron and cinnamon bark, descending into a heart of centifolia rose and aged agarwood, anchored by smokey amber and white musk. Exceptional 12+ hour longevity crafted for chilly Hazara evenings and prestigious occasions.",
+    notes: {
+      top: "Kashmiri Saffron, Cinnamon Bark, Bergamot",
+      heart: "Centifolia Rose, Cambodian Oud, Nutmeg",
+      base: "Rich Amber, Smoked Cedarwood, Leather, White Musk"
+    },
+    sizes: [
+      { ml: 30, price: 3200 },
+      { ml: 50, price: 4900 },
+      { ml: 100, price: 8200 }
+    ]
+  },
+  {
+    id: 2,
+    name: "Velvet Amber",
+    tagline: "Warm golden resin enveloped in bourbon vanilla and toasted tonka",
+    category: "Amber",
+    gender: "Unisex",
+    badge: "Signature",
+    isFeatured: true,
+    rating: 4.8,
+    reviewsCount: 29,
+    image: "velvet-amber.jpg",
+    description: "Velvet Amber is liquid warmth. It opens with luscious Italian mandarin and spiced cardamom before revealing a mesmerizing core of benzoin and French tonka bean. The dry down is creamy Madagascar vanilla kissed with ambergris, leaving a regal, captivating sillage that lingers on winter coats for days.",
+    notes: {
+      top: "Italian Mandarin, Pink Pepper, Cardamom",
+      heart: "Golden Amber, French Tonka, Benzoin Resin",
+      base: "Bourbon Vanilla, Sandalwood, Patchouli"
+    },
+    sizes: [
+      { ml: 30, price: 2900 },
+      { ml: 50, price: 4400 },
+      { ml: 100, price: 7400 }
+    ]
+  },
+  {
+    id: 3,
+    name: "Hazara Breeze",
+    tagline: "Crisp mountain pine needles, aquatic bergamot & chilled juniper",
+    category: "Fresh",
+    gender: "Unisex",
+    badge: "Local Special",
+    isFeatured: true,
+    rating: 5.0,
+    reviewsCount: 44,
+    image: "hazara-breeze.jpg",
+    description: "Inspired by the brisk morning mist of the Abbottabad hills and pine forests of Shimla Hill. Hazara Breeze is ultra-refreshing yet sophisticated: invigorating citrus mist, dewy pine needle accords, aromatic lavender, and a crisp vetiver base that keeps you feeling sharp and cool through humid summer afternoons.",
+    notes: {
+      top: "Bergamot Zest, Frosted Mint, Chilled Green Apple",
+      heart: "Abbottabad Pine Accord, Alpine Juniper, French Lavender",
+      base: "Crisp Vetiver, Ambroxan, Oakmoss, Clean Musk"
+    },
+    sizes: [
+      { ml: 30, price: 2600 },
+      { ml: 50, price: 3800 },
+      { ml: 100, price: 6200 }
+    ]
+  },
+  {
+    id: 4,
+    name: "Noir Intense",
+    tagline: "Midnight leather, dark roast coffee, and smoky Haitian vetiver",
+    category: "Woody",
+    gender: "Men",
+    badge: "Bestseller",
+    isFeatured: true,
+    rating: 4.9,
+    reviewsCount: 52,
+    image: "noir-intense.jpg",
+    description: "Commanding, magnetic, and undeniably masculine. Noir Intense was blended for the man who leaves an indelible impression. A crisp burst of black pepper and grapefruit gives way to dark roasted espresso beans and guaiac wood, settled over Tuscan leather and dense Haitian vetiver.",
+    notes: {
+      top: "Black Pepper, Grapefruit, Cardamom",
+      heart: "Dark Roast Coffee, Guaiac Wood, Nutmeg",
+      base: "Tuscan Leather, Vetiver, Smoky Incense"
+    },
+    sizes: [
+      { ml: 30, price: 3000 },
+      { ml: 50, price: 4600 },
+      { ml: 100, price: 7900 }
+    ]
+  },
+  {
+    id: 5,
+    name: "Rose Damascena",
+    tagline: "Velvety petals of Turkish Damask rose kissed with lychee & spun sugar",
+    category: "Floral",
+    gender: "Women",
+    badge: "Signature",
+    isFeatured: true,
+    rating: 4.9,
+    reviewsCount: 31,
+    image: "rose-damascena.jpg",
+    description: "The epitome of feminine grace. Rose Damascena captures the fresh dew on hand-picked Isparta roses at dawn. Blended with mouthwatering lychee, peony, and creamy white musk, this scent radiates high-society charm without feeling heavy or dated.",
+    notes: {
+      top: "Sweet Lychee, Pink Peony, Bergamot",
+      heart: "Turkish Damask Rose, Lily of the Valley, Raspberry",
+      base: "White Musk, Cedar, Soft Amber, Cashmeran"
+    },
+    sizes: [
+      { ml: 30, price: 2800 },
+      { ml: 50, price: 4200 },
+      { ml: 100, price: 6900 }
+    ]
+  },
+  {
+    id: 6,
+    name: "Santal Sultani",
+    tagline: "Creamy Mysore sandalwood, white cardamom and milky cedarwood",
+    category: "Woody",
+    gender: "Unisex",
+    badge: "Premium",
+    isFeatured: true,
+    rating: 4.8,
+    reviewsCount: 26,
+    image: "santal-sultani.jpg",
+    description: "A calming masterpiece of rare sandalwood. Warm, creamy, and deeply grounding. Santal Sultani begins with gentle spices and iris, flowing into decadent Australian and Indian sandalwood oils, ending with silky amber and suede leather. Highly sophisticated and comforting.",
+    notes: {
+      top: "Cardamom, Violet Leaves, Papyrus",
+      heart: "Florentine Iris, White Cedar, Incense",
+      base: "Mysore Sandalwood, Cashmere Wood, Warm Amber"
+    },
+    sizes: [
+      { ml: 30, price: 3400 },
+      { ml: 50, price: 5200 },
+      { ml: 100, price: 8900 }
+    ]
+  },
+  {
+    id: 7,
+    name: "Imperial Musk",
+    tagline: "Clean powdery crystal musk with linen accord and delicate white lily",
+    category: "Fresh",
+    gender: "Unisex",
+    badge: "New Release",
+    isFeatured: false,
+    rating: 4.7,
+    reviewsCount: 19,
+    image: "imperial-musk.jpg",
+    description: "Pure, pristine, and luminous. Imperial Musk evokes the feeling of crisp Egyptian cotton linens washed in sunlight and chilled mountain water. A modern clean musk beloved by brides and professionals who prefer an intimate, magnetic skin scent.",
+    notes: {
+      top: "Aldehydes, White Lily, Lemon Blossom",
+      heart: "Jasmine Sambac, Orris Butter, Cotton Flower",
+      base: "White Crystal Musk, Light Amber, Iso E Super"
+    },
+    sizes: [
+      { ml: 30, price: 2700 },
+      { ml: 50, price: 3900 },
+      { ml: 100, price: 6500 }
+    ]
+  },
+  {
+    id: 8,
+    name: "Vanilla Sucrée",
+    tagline: "Decadent Tahitian vanilla pod, salted caramel and almond praline",
+    category: "Gourmand",
+    gender: "Women",
+    badge: "Bestseller",
+    isFeatured: false,
+    rating: 5.0,
+    reviewsCount: 47,
+    image: "vanilla-sucree.jpg",
+    description: "An addictive gourmand indulgence. Vanilla Sucrée opens with toasted almonds and caramelized sugar before unveiling the rich nectar of cured Tahitian vanilla beans. Complemented by tonka bean and benzoin, this perfume is warm, seductive, and delicious.",
+    notes: {
+      top: "Toasted Almond, Spun Brown Sugar, Sweet Cream",
+      heart: "Tahitian Vanilla Orchid, Salted Caramel, Tonka",
+      base: "Bourbon Vanilla Pod, Golden Honey, Sandalwood"
+    },
+    sizes: [
+      { ml: 30, price: 2900 },
+      { ml: 50, price: 4400 },
+      { ml: 100, price: 7200 }
+    ]
+  },
+  {
+    id: 9,
+    name: "Cedar Crest",
+    tagline: "Smoky Atlas cedarwood, aromatic sage, and peppery elemi resin",
+    category: "Woody",
+    gender: "Men",
+    badge: "Signature",
+    isFeatured: false,
+    rating: 4.8,
+    reviewsCount: 22,
+    image: "cedar-crest.jpg",
+    description: "Epitomizing the rugged elegance of mountainous Pakistan. Cedar Crest blends dry cedarwood shavings with herbal clary sage, pink pepper, and a touch of smoky frankincense. A dignified, structured fragrance for formal wear and boardroom dominance.",
+    notes: {
+      top: "Pink Pepper, Elemi, Italian Bergamot",
+      heart: "Clary Sage, Nutmeg, Virginia Cedarwood",
+      base: "Atlas Cedar, Smoky Frankincense, Earthy Vetiver"
+    },
+    sizes: [
+      { ml: 30, price: 2800 },
+      { ml: 50, price: 4100 },
+      { ml: 100, price: 6800 }
+    ]
+  },
+  {
+    id: 10,
+    name: "Jasmine Nocturne",
+    tagline: "Intoxicating night-blooming Pakistani Motia & Sambac jasmine",
+    category: "Floral",
+    gender: "Women",
+    badge: "Traditional",
+    isFeatured: false,
+    rating: 4.9,
+    reviewsCount: 35,
+    image: "jasmine-nocturne.jpg",
+    description: "A tribute to the nostalgic scent of fresh Motia blossoms picked at twilight. Jasmine Nocturne fuses opulent jasmine sambac with tuberose and neroli blossoms, anchored in warm amber and musk. Sensual, luminous, and authentically traditional.",
+    notes: {
+      top: "Bitter Orange Blossom, Neroli, Green Leaves",
+      heart: "Night-Blooming Jasmine Sambac (Motia), Indian Tuberose",
+      base: "Soft Benzoin, Sheer Amber, Golden Musk"
+    },
+    sizes: [
+      { ml: 30, price: 2700 },
+      { ml: 50, price: 3900 },
+      { ml: 100, price: 6600 }
+    ]
+  },
+  {
+    id: 11,
+    name: "Cuir De Hazara",
+    tagline: "Aged Russian leather, sweet tobacco leaf, and smoked plum",
+    category: "Oud",
+    gender: "Men",
+    badge: "Exclusive",
+    isFeatured: false,
+    rating: 4.9,
+    reviewsCount: 28,
+    image: "leather-cuir.jpg",
+    description: "Dark, assertive, and undeniably luxurious. Cuir De Hazara pairs rich saddle leather with cured Cuban tobacco leaf and macerated dark plum. Infused with a dash of black oud and birch tar, it has a formidable presence and commanding sillage.",
+    notes: {
+      top: "Dark Plum, Thyme, Saffron Infusion",
+      heart: "Cured Tobacco Leaf, Tuscan Leather, Cacao Pod",
+      base: "Black Agarwood (Oud), Birch Tar, Ambergris"
+    },
+    sizes: [
+      { ml: 30, price: 3500 },
+      { ml: 50, price: 5400 },
+      { ml: 100, price: 9200 }
+    ]
+  },
+  {
+    id: 12,
+    name: "Bloom & Blossom",
+    tagline: "Sparkling magnolia petals, juicy white peach & dewy spring blossoms",
+    category: "Floral",
+    gender: "Women",
+    badge: "New Release",
+    isFeatured: false,
+    rating: 4.8,
+    reviewsCount: 17,
+    image: "bloom-blossom.jpg",
+    description: "Youthful, sparkling, and romantic. Bloom & Blossom delivers an uplifting symphony of white peaches, dewy magnolia petals, and sweet honeysuckle. Designed for everyday radiance and bright spring mornings.",
+    notes: {
+      top: "White Peach, Sicilian Mandarin, Dewdrop Accord",
+      heart: "Magnolia Petals, Sweet Honeysuckle, Gardenia",
+      base: "Blonde Woods, Sheer Vanilla, Silky Musk"
+    },
+    sizes: [
+      { ml: 30, price: 2500 },
+      { ml: 50, price: 3700 },
+      { ml: 100, price: 5900 }
+    ]
+  }
+];
+
+// Curated Customer Reviews from Abbottabad and across Pakistan
+const REVIEWS = [
+  {
+    name: "Daniyal Qureshi",
+    city: "Abbottabad (Supply Area)",
+    perfume: "Alha Royal Oud",
+    rating: 5,
+    verified: true,
+    date: "14 Sept 2026",
+    comment: "Ordered in Abbottabad in the morning and received it by the next afternoon via Cash on Delivery! The presentation is stunning. Royal Oud projects for a solid 9+ hours. It easily rivals imported niche ouds costing Rs. 35,000+."
+  },
+  {
+    name: "Syeda Zainab Bukhari",
+    city: "Islamabad (F-7)",
+    perfume: "Rose Damascena",
+    rating: 5,
+    verified: true,
+    date: "28 August 2026",
+    comment: "The rose and lychee notes in Rose Damascena are so delicately balanced. I wore it to a wedding at Serena and got compliments all night. Proud to see such world-class perfumery originating from Abbottabad."
+  },
+  {
+    name: "Maj. (R) Tariq Khan",
+    city: "Abbottabad (Kakul Road)",
+    perfume: "Hazara Breeze & Noir Intense",
+    rating: 5,
+    verified: true,
+    date: "05 August 2026",
+    comment: "Hazara Breeze truly captures the crisp pine freshness of our hills. Noir Intense has that serious, distinguished dark leather profile. Both bottles arrived securely wrapped. Very impressed with ALHA."
+  },
+  {
+    name: "Hamza Shafique",
+    city: "Lahore (DHA Phase 5)",
+    perfume: "Santal Sultani",
+    rating: 5,
+    verified: true,
+    date: "19 July 2026",
+    comment: "Delivery took 3 days to Lahore. Smooth COD process. The Mysore sandalwood is silky and rich. Ordered via WhatsApp and their representative answered my sizing questions in 2 minutes."
+  }
+];
+
+
+/* ==========================================================================
+   INTERACTIVE STORE LOGIC & CART
+   ========================================================================== */
+/**
+ * ==========================================================================
+ * ALHA - Luxury Fragrances (Abbottabad, Pakistan)
+ * Master Client-Side JavaScript
+ * ==========================================================================
+ */
+
+// Selected size state for cards on page: { [productId]: sizeMl }
+const cardSelectedSizes = {};
+
+// Cart state in localStorage
+let cart = [];
+
+// Current filter state for Full Collection
+let activeFilters = {
+  gender: 'All',
+  category: 'All',
+  search: '',
+  sort: 'featured'
+};
+
+// Current active product in Detail Modal
+let activeModalProduct = null;
+let activeModalSize = null;
+let activeModalQty = 1;
+
+/* ==========================================================================
+   Initialization
+   ========================================================================== */
+document.addEventListener('DOMContentLoaded', () => {
+  loadCartFromStorage();
+  initNavbarScroll();
+  initMobileMenu();
+  renderFeaturedSection();
+  renderCollectionSection();
+  renderReviewsSection();
+  setupFilterListeners();
+  setupCartEvents();
+  setupModalEvents();
+  setupContactForm();
+  updateWhatsAppLinks();
+});
+
+/* ==========================================================================
+   WhatsApp Link Utilities
+   ========================================================================== */
+function getCleanWhatsAppNumber() {
+  let num = (typeof WHATSAPP_NUMBER !== 'undefined' ? WHATSAPP_NUMBER : '923265676991').replace(/[^0-9]/g, '');
+  if (num.startsWith('0')) {
+    num = '92' + num.slice(1);
+  }
+  return num;
+}
+
+function updateWhatsAppLinks() {
+  const cleanPhone = getCleanWhatsAppNumber();
+  const defaultMsg = encodeURIComponent("Hello ALHA, I am contacting you from your website regarding your luxury perfume collection.");
+  const waUrl = `https://wa.me/${cleanPhone}?text=${defaultMsg}`;
+  
+  const floatingBtn = document.getElementById('floatingWhatsAppBtn');
+  if (floatingBtn) floatingBtn.href = waUrl;
+
+  const navWaBtn = document.getElementById('navWhatsAppBtn');
+  if (navWaBtn) navWaBtn.href = waUrl;
+
+  const contactWaBtn = document.getElementById('contactDirectWaBtn');
+  if (contactWaBtn) contactWaBtn.href = waUrl;
+
+  const footerWaBtn = document.getElementById('footerOrderWaBtn');
+  if (footerWaBtn) footerWaBtn.href = waUrl;
+
+  const footerSocialWa = document.getElementById('footerSocialWaBtn');
+  if (footerSocialWa) footerSocialWa.href = waUrl;
+}
+
+/**
+ * Format currency in Pakistani Rupees
+ */
+function formatPKR(amount) {
+  return `Rs. ${amount.toLocaleString('en-PK')}`;
+}
+
+/* ==========================================================================
+   Navbar & Mobile Menu
+   ========================================================================== */
+function initNavbarScroll() {
+  const navbar = document.getElementById('navbar');
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 40) {
+      navbar.classList.add('scrolled');
+    } else {
+      navbar.classList.remove('scrolled');
+    }
+  });
+}
+
+function initMobileMenu() {
+  const menuBtn = document.getElementById('mobileMenuBtn');
+  const navLinks = document.getElementById('navLinks');
+  if (!menuBtn || !navLinks) return;
+
+  menuBtn.addEventListener('click', () => {
+    navLinks.classList.toggle('mobile-active');
+    const icon = menuBtn.querySelector('i');
+    if (icon) {
+      icon.className = navLinks.classList.contains('mobile-active') 
+        ? 'ri-close-line' 
+        : 'ri-menu-3-line';
+    }
+  });
+
+  // Close menu when clicking nav link
+  document.querySelectorAll('.nav-link').forEach(link => {
+    link.addEventListener('click', () => {
+      navLinks.classList.remove('mobile-active');
+      const icon = menuBtn.querySelector('i');
+      if (icon) icon.className = 'ri-menu-3-line';
+    });
+  });
+}
+
+/* ==========================================================================
+   Featured Products Section
+   ========================================================================== */
+function renderFeaturedSection() {
+  const container = document.getElementById('featuredGrid');
+  if (!container) return;
+
+  const featured = PRODUCTS.filter(p => p.isFeatured).slice(0, 4);
+  container.innerHTML = featured.map(p => createProductCardHtml(p, 'featured')).join('');
+  attachCardEventListeners(container);
+}
+
+/* ==========================================================================
+   Full Collection Section (With Filters & Sort)
+   ========================================================================== */
+function renderCollectionSection() {
+  const container = document.getElementById('collectionGrid');
+  const countEl = document.getElementById('collectionCount');
+  if (!container) return;
+
+  let list = [...PRODUCTS];
+
+  // Gender filter
+  if (activeFilters.gender !== 'All') {
+    list = list.filter(p => p.gender.toLowerCase() === activeFilters.gender.toLowerCase() || p.gender.toLowerCase() === 'unisex');
+  }
+
+  // Category filter
+  if (activeFilters.category !== 'All') {
+    list = list.filter(p => p.category.toLowerCase() === activeFilters.category.toLowerCase());
+  }
+
+  // Search filter
+  if (activeFilters.search.trim()) {
+    const term = activeFilters.search.toLowerCase();
+    list = list.filter(p => 
+      p.name.toLowerCase().includes(term) ||
+      p.category.toLowerCase().includes(term) ||
+      p.notes.top.toLowerCase().includes(term) ||
+      p.notes.heart.toLowerCase().includes(term) ||
+      p.notes.base.toLowerCase().includes(term) ||
+      p.description.toLowerCase().includes(term)
+    );
+  }
+
+  // Sorting
+  switch (activeFilters.sort) {
+    case 'price-asc':
+      list.sort((a, b) => a.sizes[0].price - b.sizes[0].price);
+      break;
+    case 'price-desc':
+      list.sort((a, b) => b.sizes[0].price - a.sizes[0].price);
+      break;
+    case 'rating':
+      list.sort((a, b) => b.rating - a.rating);
+      break;
+    case 'name-asc':
+      list.sort((a, b) => a.name.localeCompare(b.name));
+      break;
+    default:
+      // 'featured' / default order
+      break;
+  }
+
+  if (countEl) {
+    countEl.textContent = `Showing ${list.length} of ${PRODUCTS.length} Fragrances`;
+  }
+
+  if (list.length === 0) {
+    container.innerHTML = `
+      <div class="empty-state" style="grid-column: 1 / -1;">
+        <div class="empty-state-icon"><i class="ri-flask-line"></i></div>
+        <h3 class="empty-state-title">No Fragrances Found</h3>
+        <p class="empty-state-text">No perfumes match your selected filters. Try clearing filters or searching for different notes.</p>
+        <button class="btn btn-primary" onclick="resetFilters()">Reset All Filters</button>
+      </div>
+    `;
+    return;
+  }
+
+  container.innerHTML = list.map(p => createProductCardHtml(p, 'collection')).join('');
+  attachCardEventListeners(container);
+}
+
+function resetFilters() {
+  activeFilters.gender = 'All';
+  activeFilters.category = 'All';
+  activeFilters.search = '';
+  activeFilters.sort = 'featured';
+
+  const searchInput = document.getElementById('collectionSearch');
+  if (searchInput) searchInput.value = '';
+
+  const sortSelect = document.getElementById('collectionSort');
+  if (sortSelect) sortSelect.value = 'featured';
+
+  document.querySelectorAll('.filter-gender-btn').forEach(btn => {
+    btn.classList.toggle('active', btn.dataset.gender === 'All');
+  });
+
+  document.querySelectorAll('.filter-category-btn').forEach(btn => {
+    btn.classList.toggle('active', btn.dataset.category === 'All');
+  });
+
+  renderCollectionSection();
+}
+
+/* ==========================================================================
+   Product Card HTML & Interactivity
+   ========================================================================== */
+function createProductCardHtml(product, prefix) {
+  // Default to 50ml if available, or first size
+  const defaultSizeObj = product.sizes.find(s => s.ml === 50) || product.sizes[0];
+  const selectedSizeMl = cardSelectedSizes[product.id] || defaultSizeObj.ml;
+  const currentSizeObj = product.sizes.find(s => s.ml === selectedSizeMl) || defaultSizeObj;
+  cardSelectedSizes[product.id] = currentSizeObj.ml;
+
+  const badgeHtml = product.badge 
+    ? `<span class="product-badge ${product.badge.toLowerCase().includes('best') ? 'bestseller' : ''}">${product.badge}</span>` 
+    : '';
+
+  const sizePillsHtml = product.sizes.map(s => `
+    <button type="button" 
+      class="size-pill ${s.ml === currentSizeObj.ml ? 'active' : ''}" 
+      data-product-id="${product.id}" 
+      data-ml="${s.ml}" 
+      data-price="${s.price}">
+      ${s.ml}ml
+    </button>
+  `).join('');
+
+  return `
+    <article class="product-card" data-id="${product.id}">
+      <div class="product-image-wrap" onclick="openProductModal(${product.id}, ${currentSizeObj.ml})">
+        ${badgeHtml}
+        <span class="product-gender-tag">${product.gender}</span>
+        <img src="assets/images/${product.image}" 
+             alt="${product.name} - Luxury Perfume by ALHA Abbottabad" 
+             loading="lazy" 
+             onerror="this.src='https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?auto=format&fit=crop&w=600&q=80'">
+        <div class="quick-view-overlay">
+          <button class="btn-quick-view">Quick View & Notes</button>
+        </div>
+      </div>
+
+      <div class="product-body">
+        <span class="product-category">${product.category} Fragrance</span>
+        <h3 class="product-name" onclick="openProductModal(${product.id}, ${currentSizeObj.ml})">${product.name}</h3>
+
+        <div class="product-notes-preview">
+          <strong>Key Notes:</strong> ${product.notes.heart} • ${product.notes.base}
+        </div>
+
+        <div class="product-sizes-label">Select Bottle Size:</div>
+        <div class="product-sizes-wrap">
+          ${sizePillsHtml}
+        </div>
+
+        <div class="product-card-footer">
+          <div class="product-price-row">
+            <span class="price-tag" id="price-display-${prefix}-${product.id}">${formatPKR(currentSizeObj.price)}</span>
+            <span class="price-unit">COD Available</span>
+          </div>
+
+          <div class="product-actions-dual">
+            <button class="btn btn-primary btn-card-cart" onclick="handleCardAddToCart(${product.id})">
+              <i class="ri-shopping-bag-line"></i> Add To Bag
+            </button>
+            <button class="btn btn-whatsapp btn-card-whatsapp" onclick="handleCardDirectWhatsApp(${product.id})">
+              <i class="ri-whatsapp-line"></i> Order
+            </button>
+          </div>
+        </div>
+      </div>
+    </article>
+  `;
+}
+
+function attachCardEventListeners(container) {
+  // Listen for size pill switches
+  container.querySelectorAll('.size-pill').forEach(pill => {
+    pill.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const pId = parseInt(pill.dataset.productId);
+      const ml = parseInt(pill.dataset.ml);
+      const price = parseInt(pill.dataset.price);
+
+      cardSelectedSizes[pId] = ml;
+
+      // Update active pills in this card
+      const card = pill.closest('.product-card');
+      card.querySelectorAll('.size-pill').forEach(p => p.classList.remove('active'));
+      pill.classList.add('active');
+
+      // Update displayed price in this card
+      const priceDisplay = card.querySelector('.price-tag');
+      if (priceDisplay) {
+        priceDisplay.textContent = formatPKR(price);
+      }
+    });
+  });
+}
+
+function handleCardAddToCart(productId) {
+  const product = PRODUCTS.find(p => p.id === productId);
+  if (!product) return;
+  const sizeMl = cardSelectedSizes[productId] || product.sizes[0].ml;
+  addToCart(productId, sizeMl, 1);
+}
+
+function handleCardDirectWhatsApp(productId) {
+  const product = PRODUCTS.find(p => p.id === productId);
+  if (!product) return;
+  const sizeMl = cardSelectedSizes[productId] || product.sizes[0].ml;
+  const sizeObj = product.sizes.find(s => s.ml === sizeMl) || product.sizes[0];
+
+  const cleanPhone = getCleanWhatsAppNumber();
+  const message = `Hello ALHA, I want to order:
+1x ${product.name} (${sizeObj.ml}ml) - ${formatPKR(sizeObj.price)}
+Total: ${formatPKR(sizeObj.price)}
+Name: ___  Address: ___  City: Abbottabad
+Payment: Cash on Delivery`;
+
+  const url = `https://wa.me/${cleanPhone}?text=${encodeURIComponent(message)}`;
+  window.open(url, '_blank');
+}
+
+/* ==========================================================================
+   Filter & Search Event Listeners
+   ========================================================================== */
+function setupFilterListeners() {
+  // Gender buttons
+  document.querySelectorAll('.filter-gender-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.filter-gender-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      activeFilters.gender = btn.dataset.gender;
+      renderCollectionSection();
+    });
+  });
+
+  // Category buttons
+  document.querySelectorAll('.filter-category-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.filter-category-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      activeFilters.category = btn.dataset.category;
+      renderCollectionSection();
+    });
+  });
+
+  // Search input with debounce
+  const searchInput = document.getElementById('collectionSearch');
+  if (searchInput) {
+    let timeout = null;
+    searchInput.addEventListener('input', (e) => {
+      clearTimeout(timeout);
+      timeout = setTimeout(() => {
+        activeFilters.search = e.target.value;
+        renderCollectionSection();
+      }, 250);
+    });
+  }
+
+  // Sort dropdown
+  const sortSelect = document.getElementById('collectionSort');
+  if (sortSelect) {
+    sortSelect.addEventListener('change', (e) => {
+      activeFilters.sort = e.target.value;
+      renderCollectionSection();
+    });
+  }
+}
+
+/* ==========================================================================
+   Product Detail Modal
+   ========================================================================== */
+function setupModalEvents() {
+  const modalOverlay = document.getElementById('productModal');
+  const closeBtn = document.getElementById('modalCloseBtn');
+  if (!modalOverlay) return;
+
+  if (closeBtn) {
+    closeBtn.addEventListener('click', () => closeModal());
+  }
+
+  modalOverlay.addEventListener('click', (e) => {
+    if (e.target === modalOverlay) {
+      closeModal();
+    }
+  });
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+      closeModal();
+      closeCart();
+    }
+  });
+
+  // Quantity controls inside modal
+  const qtyMinus = document.getElementById('modalQtyMinus');
+  const qtyPlus = document.getElementById('modalQtyPlus');
+  const qtyDisplay = document.getElementById('modalQtyDisplay');
+
+  if (qtyMinus && qtyPlus && qtyDisplay) {
+    qtyMinus.addEventListener('click', () => {
+      if (activeModalQty > 1) {
+        activeModalQty--;
+        qtyDisplay.textContent = activeModalQty;
+        updateModalPrice();
+      }
+    });
+    qtyPlus.addEventListener('click', () => {
+      activeModalQty++;
+      qtyDisplay.textContent = activeModalQty;
+      updateModalPrice();
+    });
+  }
+
+  // Modal Add to Cart
+  const modalAddCartBtn = document.getElementById('modalAddToCartBtn');
+  if (modalAddCartBtn) {
+    modalAddCartBtn.addEventListener('click', () => {
+      if (!activeModalProduct || !activeModalSize) return;
+      addToCart(activeModalProduct.id, activeModalSize.ml, activeModalQty);
+      closeModal();
+    });
+  }
+
+  // Modal Direct WhatsApp Order
+  const modalOrderWaBtn = document.getElementById('modalOrderWhatsAppBtn');
+  if (modalOrderWaBtn) {
+    modalOrderWaBtn.addEventListener('click', () => {
+      if (!activeModalProduct || !activeModalSize) return;
+      const total = activeModalSize.price * activeModalQty;
+      const cleanPhone = getCleanWhatsAppNumber();
+      const message = `Hello ALHA, I want to order:
+${activeModalQty}x ${activeModalProduct.name} (${activeModalSize.ml}ml) - ${formatPKR(total)}
+Total: ${formatPKR(total)}
+Name: ___  Address: ___  City: Abbottabad
+Payment: Cash on Delivery`;
+
+      const url = `https://wa.me/${cleanPhone}?text=${encodeURIComponent(message)}`;
+      window.open(url, '_blank');
+      closeModal();
+    });
+  }
+}
+
+function openProductModal(productId, sizeMl = null) {
+  const product = PRODUCTS.find(p => p.id === productId);
+  if (!product) return;
+
+  activeModalProduct = product;
+  const defaultSize = product.sizes.find(s => s.ml === sizeMl) || product.sizes[0];
+  activeModalSize = defaultSize;
+  activeModalQty = 1;
+
+  const modal = document.getElementById('productModal');
+  const imgEl = document.getElementById('modalImage');
+  const nameEl = document.getElementById('modalTitle');
+  const taglineEl = document.getElementById('modalTagline');
+  const descEl = document.getElementById('modalDesc');
+  const genderEl = document.getElementById('modalGender');
+  const categoryEl = document.getElementById('modalCategory');
+  const topNotesEl = document.getElementById('modalTopNotes');
+  const heartNotesEl = document.getElementById('modalHeartNotes');
+  const baseNotesEl = document.getElementById('modalBaseNotes');
+  const sizesWrap = document.getElementById('modalSizesWrap');
+  const qtyDisplay = document.getElementById('modalQtyDisplay');
+
+  if (imgEl) {
+    imgEl.src = `assets/images/${product.image}`;
+    imgEl.alt = `${product.name} Perfume`;
+  }
+  if (nameEl) nameEl.textContent = product.name;
+  if (taglineEl) taglineEl.textContent = product.tagline;
+  if (descEl) descEl.textContent = product.description;
+  if (genderEl) genderEl.textContent = product.gender;
+  if (categoryEl) categoryEl.textContent = `${product.category} Scent`;
+  if (topNotesEl) topNotesEl.textContent = product.notes.top;
+  if (heartNotesEl) heartNotesEl.textContent = product.notes.heart;
+  if (baseNotesEl) baseNotesEl.textContent = product.notes.base;
+  if (qtyDisplay) qtyDisplay.textContent = '1';
+
+  // Render sizes
+  if (sizesWrap) {
+    sizesWrap.innerHTML = product.sizes.map(s => `
+      <button type="button" 
+        class="size-pill ${s.ml === activeModalSize.ml ? 'active' : ''}" 
+        data-ml="${s.ml}">
+        ${s.ml}ml
+      </button>
+    `).join('');
+
+    sizesWrap.querySelectorAll('.size-pill').forEach(pill => {
+      pill.addEventListener('click', () => {
+        const ml = parseInt(pill.dataset.ml);
+        activeModalSize = product.sizes.find(s => s.ml === ml);
+        sizesWrap.querySelectorAll('.size-pill').forEach(p => p.classList.remove('active'));
+        pill.classList.add('active');
+        updateModalPrice();
+      });
+    });
+  }
+
+  updateModalPrice();
+  modal.classList.add('active');
+  document.body.style.overflow = 'hidden';
+}
+
+function updateModalPrice() {
+  const priceEl = document.getElementById('modalPrice');
+  if (priceEl && activeModalSize) {
+    const total = activeModalSize.price * activeModalQty;
+    priceEl.textContent = formatPKR(total);
+  }
+}
+
+function closeModal() {
+  const modal = document.getElementById('productModal');
+  if (modal) {
+    modal.classList.remove('active');
+    document.body.style.overflow = '';
+  }
+}
+
+/* ==========================================================================
+   Slide-Over Cart Drawer & WhatsApp Order Generator
+   ========================================================================== */
+function setupCartEvents() {
+  const cartBtn = document.getElementById('navCartBtn');
+  const cartOverlay = document.getElementById('cartOverlay');
+  const closeCartBtn = document.getElementById('cartCloseBtn');
+  const waOrderBtn = document.getElementById('cartPlaceOrderWaBtn');
+
+  if (cartBtn) {
+    cartBtn.addEventListener('click', () => openCart());
+  }
+  if (closeCartBtn) {
+    closeCartBtn.addEventListener('click', () => closeCart());
+  }
+  if (cartOverlay) {
+    cartOverlay.addEventListener('click', (e) => {
+      if (e.target === cartOverlay) closeCart();
+    });
+  }
+
+  // City selector inside cart updates delivery fee
+  const citySelect = document.getElementById('cartCitySelect');
+  if (citySelect) {
+    citySelect.addEventListener('change', () => renderCartDrawer());
+  }
+
+  // Master WhatsApp Order Button from Cart
+  if (waOrderBtn) {
+    waOrderBtn.addEventListener('click', () => {
+      handleCartWhatsAppOrder();
+    });
+  }
+}
+
+function openCart() {
+  renderCartDrawer();
+  const overlay = document.getElementById('cartOverlay');
+  const drawer = document.getElementById('cartDrawer');
+  if (overlay && drawer) {
+    overlay.classList.add('active');
+    drawer.classList.add('active');
+    document.body.style.overflow = 'hidden';
+  }
+}
+
+function closeCart() {
+  const overlay = document.getElementById('cartOverlay');
+  const drawer = document.getElementById('cartDrawer');
+  if (overlay && drawer) {
+    overlay.classList.remove('active');
+    drawer.classList.remove('active');
+    document.body.style.overflow = '';
+  }
+}
+
+function loadCartFromStorage() {
+  try {
+    const saved = localStorage.getItem('alha_luxury_cart');
+    if (saved) cart = JSON.parse(saved);
+  } catch (err) {
+    console.warn('Could not read cart from localStorage', err);
+    cart = [];
+  }
+  updateCartBadge();
+}
+
+function saveCartToStorage() {
+  try {
+    localStorage.setItem('alha_luxury_cart', JSON.stringify(cart));
+  } catch (err) {
+    console.warn('Could not save cart', err);
+  }
+  updateCartBadge();
+}
+
+function updateCartBadge() {
+  const badges = document.querySelectorAll('.cart-count-badge');
+  const totalItems = cart.reduce((sum, item) => sum + item.quantity, 0);
+  badges.forEach(b => {
+    b.textContent = totalItems;
+  });
+}
+
+function addToCart(productId, sizeMl, quantity = 1) {
+  const product = PRODUCTS.find(p => p.id === productId);
+  if (!product) return;
+  const sizeObj = product.sizes.find(s => s.ml === sizeMl) || product.sizes[0];
+
+  const existingIndex = cart.findIndex(item => item.id === productId && item.sizeMl === sizeObj.ml);
+
+  if (existingIndex > -1) {
+    cart[existingIndex].quantity += quantity;
+  } else {
+    cart.push({
+      id: product.id,
+      name: product.name,
+      sizeMl: sizeObj.ml,
+      price: sizeObj.price,
+      image: product.image,
+      quantity: quantity
+    });
+  }
+
+  saveCartToStorage();
+  showToast(`Added ${quantity}x ${product.name} (${sizeObj.ml}ml) to your bag`);
+  openCart();
+}
+
+function updateCartItemQty(index, delta) {
+  if (!cart[index]) return;
+  cart[index].quantity += delta;
+  if (cart[index].quantity <= 0) {
+    cart.splice(index, 1);
+  }
+  saveCartToStorage();
+  renderCartDrawer();
+}
+
+function removeCartItem(index) {
+  if (!cart[index]) return;
+  const removedName = cart[index].name;
+  cart.splice(index, 1);
+  saveCartToStorage();
+  renderCartDrawer();
+  showToast(`Removed ${removedName} from bag`);
+}
+
+function renderCartDrawer() {
+  const listEl = document.getElementById('cartItemsList');
+  const subtotalEl = document.getElementById('cartSubtotal');
+  const shippingEl = document.getElementById('cartShippingFee');
+  const totalEl = document.getElementById('cartGrandTotal');
+  const shippingBarEl = document.getElementById('cartFreeShippingProgress');
+  const citySelect = document.getElementById('cartCitySelect');
+
+  if (!listEl) return;
+
+  if (cart.length === 0) {
+    listEl.innerHTML = `
+      <div class="cart-empty-msg">
+        <div class="cart-empty-icon"><i class="ri-shopping-bag-2-line"></i></div>
+        <p style="font-size: 1.1rem; color: #fff; margin-bottom: 0.5rem; font-family: var(--font-serif);">Your Fragrance Bag is Empty</p>
+        <p>Explore our Abbottabad artisanal collection and add your favorite scents.</p>
+        <button class="btn btn-outline btn-sm" style="margin-top: 1.2rem;" onclick="closeCart(); document.getElementById('collection').scrollIntoView({behavior: 'smooth'})">
+          Discover Scents
+        </button>
+      </div>
+    `;
+    if (subtotalEl) subtotalEl.textContent = 'Rs. 0';
+    if (shippingEl) shippingEl.textContent = 'Rs. 0';
+    if (totalEl) totalEl.textContent = 'Rs. 0';
+    if (shippingBarEl) shippingBarEl.textContent = `Free nationwide shipping on orders over ${formatPKR(STORE_CONFIG.freeDeliveryThreshold)}`;
+    return;
+  }
+
+  listEl.innerHTML = cart.map((item, index) => `
+    <div class="cart-item">
+      <img src="assets/images/${item.image}" alt="${item.name}" class="cart-item-img" onerror="this.src='https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?auto=format&fit=crop&w=200&q=80'">
+      <div class="cart-item-details">
+        <h4 class="cart-item-name">${item.name}</h4>
+        <span class="cart-item-size">${item.sizeMl}ml Eau de Parfum</span>
+        <span class="cart-item-price">${formatPKR(item.price * item.quantity)}</span>
+        <div class="cart-qty-ctrl">
+          <button class="btn-qty" onclick="updateCartItemQty(${index}, -1)" title="Decrease">-</button>
+          <span class="cart-qty-num">${item.quantity}</span>
+          <button class="btn-qty" onclick="updateCartItemQty(${index}, 1)" title="Increase">+</button>
+        </div>
+      </div>
+      <button class="cart-item-remove" onclick="removeCartItem(${index})" title="Remove item">
+        <i class="ri-delete-bin-line"></i>
+      </button>
+    </div>
+  `).join('');
+
+  // Calculations
+  const subtotal = cart.reduce((sum, i) => sum + (i.price * i.quantity), 0);
+  const selectedCity = citySelect ? citySelect.value : 'Abbottabad';
+  
+  let shippingFee = 0;
+  if (subtotal < STORE_CONFIG.freeDeliveryThreshold) {
+    shippingFee = (selectedCity === 'Abbottabad') ? STORE_CONFIG.shippingAbbottabad.fee : STORE_CONFIG.shippingNationwide.fee;
+  }
+
+  const grandTotal = subtotal + shippingFee;
+
+  if (subtotalEl) subtotalEl.textContent = formatPKR(subtotal);
+  if (shippingEl) {
+    shippingEl.textContent = (shippingFee === 0) 
+      ? 'FREE (Complimentary)' 
+      : `${formatPKR(shippingFee)} (${selectedCity === 'Abbottabad' ? 'Local' : 'Courier'})`;
+  }
+  if (totalEl) totalEl.textContent = formatPKR(grandTotal);
+
+  if (shippingBarEl) {
+    if (subtotal >= STORE_CONFIG.freeDeliveryThreshold) {
+      shippingBarEl.innerHTML = `<i class="ri-checkbox-circle-fill" style="color: #25d366;"></i> <strong>Congratulations!</strong> You qualify for <strong>FREE Delivery</strong> across Pakistan.`;
+    } else {
+      const remaining = STORE_CONFIG.freeDeliveryThreshold - subtotal;
+      shippingBarEl.innerHTML = `Add <strong>${formatPKR(remaining)}</strong> more to get <strong>FREE Express Shipping</strong>!`;
+    }
+  }
+}
+
+/**
+ * Handle Complete Order on WhatsApp with Pre-filled formatted message
+ */
+function handleCartWhatsAppOrder() {
+  if (cart.length === 0) {
+    showToast('Your fragrance bag is empty.');
+    return;
+  }
+
+  const nameInput = document.getElementById('cartCustomerName');
+  const addressInput = document.getElementById('cartCustomerAddress');
+  const citySelect = document.getElementById('cartCitySelect');
+
+  const customerName = nameInput && nameInput.value.trim() ? nameInput.value.trim() : '___';
+  const customerAddress = addressInput && addressInput.value.trim() ? addressInput.value.trim() : '___';
+  const customerCity = citySelect ? citySelect.value : 'Abbottabad';
+
+  const subtotal = cart.reduce((sum, i) => sum + (i.price * i.quantity), 0);
+  let shippingFee = 0;
+  if (subtotal < STORE_CONFIG.freeDeliveryThreshold) {
+    shippingFee = (customerCity === 'Abbottabad') ? STORE_CONFIG.shippingAbbottabad.fee : STORE_CONFIG.shippingNationwide.fee;
+  }
+  const grandTotal = subtotal + shippingFee;
+
+  // Build items text lines
+  const itemLines = cart.map(i => `${i.quantity}x ${i.name} (${i.sizeMl}ml) - ${formatPKR(i.price * i.quantity)}`).join('\n');
+
+  // Exact requested format from user specification
+  const message = `Hello ALHA, I want to order:
+${itemLines}
+Subtotal: ${formatPKR(subtotal)}
+Delivery: ${shippingFee === 0 ? 'FREE' : formatPKR(shippingFee)}
+Total: ${formatPKR(grandTotal)}
+Name: ${customerName}
+Address: ${customerAddress}
+City: ${customerCity}
+Payment: Cash on Delivery`;
+
+  const cleanPhone = getCleanWhatsAppNumber();
+  const waUrl = `https://wa.me/${cleanPhone}?text=${encodeURIComponent(message)}`;
+  window.open(waUrl, '_blank');
+}
+
+/* ==========================================================================
+   Reviews Section Rendering
+   ========================================================================== */
+function renderReviewsSection() {
+  const container = document.getElementById('reviewsGrid');
+  if (!container) return;
+
+  container.innerHTML = REVIEWS.map(r => `
+    <div class="review-card">
+      <div class="review-rating">
+        ${Array(r.rating).fill('<i class="ri-star-fill"></i>').join('')}
+      </div>
+      <p class="review-quote">"${r.comment}"</p>
+      <div class="review-author">
+        <div class="author-info">
+          <strong>${r.name}</strong>
+          <span><i class="ri-map-pin-line"></i> ${r.city}</span>
+        </div>
+        <span class="review-perfume-tag">${r.perfume}</span>
+      </div>
+    </div>
+  `).join('');
+}
+
+/* ==========================================================================
+   Contact Form Handler
+   ========================================================================== */
+function setupContactForm() {
+  const form = document.getElementById('contactForm');
+  if (!form) return;
+
+  form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    const name = document.getElementById('contactName').value;
+    const phone = document.getElementById('contactPhone').value;
+    const message = document.getElementById('contactMessage').value;
+
+    const cleanPhone = getCleanWhatsAppNumber();
+    const waText = `Hello ALHA Perfumes,
+Customer Inquiry from Website:
+Name: ${name}
+Phone: ${phone}
+Message: ${message}`;
+
+    const url = `https://wa.me/${cleanPhone}?text=${encodeURIComponent(waText)}`;
+    window.open(url, '_blank');
+    showToast('Inquiry forwarded to WhatsApp support!');
+    form.reset();
+  });
+}
+
+/* ==========================================================================
+   Toast Notification Helper
+   ========================================================================== */
+function showToast(message) {
+  let container = document.getElementById('toastContainer');
+  if (!container) {
+    container = document.createElement('div');
+    container.id = 'toastContainer';
+    container.className = 'toast-container';
+    document.body.appendChild(container);
+  }
+
+  const toast = document.createElement('div');
+  toast.className = 'toast';
+  toast.innerHTML = `
+    <i class="ri-sparkling-fill toast-icon"></i>
+    <span>${message}</span>
+  `;
+
+  container.appendChild(toast);
+
+  setTimeout(() => {
+    toast.style.opacity = '0';
+    toast.style.transform = 'translateY(15px)';
+    toast.style.transition = 'all 0.3s ease';
+    setTimeout(() => toast.remove(), 300);
+  }, 3200);
+}
+
+  </script>
+</body>
+</html>
